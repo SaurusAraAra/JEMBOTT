@@ -3,266 +3,690 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>SVG Exporter</title>
+<title>EPAI — Animated Video Maker</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-
   body {
-    min-height: 100vh;
-    background: #0a0a0f;
-    font-family: 'Segoe UI', sans-serif;
-    color: #e0e0e0;
+    background: #04080f;
+    font-family: 'Georgia', serif;
+    color: #cce;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 24px;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 24px 16px 40px;
+    gap: 18px;
   }
-
   h1 {
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: #a0c4ff;
-    margin-bottom: 6px;
-    letter-spacing: 1px;
+    font-size: 1rem;
+    letter-spacing: 4px;
+    color: #4fc3f7;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 4px;
   }
-
-  p.sub {
-    font-size: 0.8rem;
-    color: #555;
-    margin-bottom: 20px;
-  }
-
-  textarea {
-    width: 100%;
-    max-width: 640px;
-    height: 200px;
-    background: #111118;
-    border: 1.5px solid #222;
+  canvas {
+    border: 1px solid #1a3a5c;
     border-radius: 10px;
-    color: #ccc;
-    font-family: monospace;
-    font-size: 0.78rem;
-    padding: 12px;
-    resize: vertical;
-    outline: none;
-    transition: border 0.2s;
+    box-shadow: 0 0 40px rgba(79,195,247,0.1);
+    width: min(360px, 90vw);
+    height: auto;
+    display: block;
   }
-  textarea:focus { border-color: #4fc3f7; }
-
-  .row {
+  .controls {
     display: flex;
     gap: 10px;
-    margin-top: 12px;
-    width: 100%;
-    max-width: 640px;
-    align-items: center;
     flex-wrap: wrap;
-  }
-
-  label {
-    font-size: 0.78rem;
-    color: #666;
-    white-space: nowrap;
-  }
-
-  select, input[type=number] {
-    background: #111118;
-    border: 1.5px solid #222;
-    border-radius: 7px;
-    color: #ccc;
-    padding: 7px 10px;
-    font-size: 0.8rem;
-    outline: none;
-  }
-
-  input[type=number] { width: 80px; }
-
-  .btn {
-    margin-top: 16px;
-    width: 100%;
-    max-width: 640px;
-    padding: 13px;
-    background: linear-gradient(135deg, #1a5276, #154360);
-    border: 1.5px solid #4fc3f7;
-    border-radius: 10px;
-    color: #a8daff;
-    font-size: 0.95rem;
-    font-weight: 600;
-    cursor: pointer;
-    letter-spacing: 0.5px;
-    transition: background 0.2s, transform 0.1s;
-  }
-  .btn:hover { background: linear-gradient(135deg, #21618c, #1a5276); }
-  .btn:active { transform: scale(0.98); }
-
-  #preview-wrap {
-    margin-top: 24px;
-    width: 100%;
-    max-width: 640px;
-    background: repeating-conic-gradient(#1a1a1a 0% 25%, #111 0% 50%) 0 0 / 20px 20px;
-    border-radius: 12px;
-    border: 1px solid #222;
-    display: none;
-    align-items: center;
     justify-content: center;
-    padding: 16px;
-    min-height: 120px;
   }
-
-  #preview-wrap img {
-    max-width: 100%;
-    max-height: 400px;
+  button {
+    padding: 11px 22px;
     border-radius: 8px;
+    border: 1.5px solid #4fc3f7;
+    background: #0a1f36;
+    color: #a8daff;
+    font-size: 0.85rem;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
   }
-
-  #msg {
-    margin-top: 12px;
-    font-size: 0.8rem;
-    color: #4fc3f7;
+  button:hover { background: #0d3050; box-shadow: 0 0 12px rgba(79,195,247,0.2); }
+  button:disabled { opacity: 0.4; cursor: not-allowed; }
+  #recBtn { background: #1a0a0a; border-color: #ef5350; color: #ff8a80; }
+  #recBtn:hover { background: #2a0f0f; }
+  #status {
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+    color: #2a6080;
     min-height: 18px;
+    text-align: center;
+  }
+  .note {
+    font-size: 0.68rem;
+    color: #1e3a52;
+    text-align: center;
+    max-width: 360px;
+    line-height: 1.6;
   }
 </style>
 </head>
 <body>
 
-<h1>⭐ SVG → PNG Exporter</h1>
-<p class="sub">Paste kode SVG, atur ukuran, klik Download — background otomatis ngikutin SVG (transparan / tidak)</p>
+<h1>✦ EPAI Video Maker</h1>
+<canvas id="c" width="480" height="848"></canvas>
 
-<textarea id="svgInput" placeholder='Paste kode SVG di sini... (contoh: <svg xmlns="..." viewBox="...">...</svg>)'></textarea>
-
-<div class="row">
-  <label>Skala resolusi:</label>
-  <select id="scale">
-    <option value="2">2x (HD)</option>
-    <option value="3" selected>3x (Full HD)</option>
-    <option value="4">4x (Ultra HD)</option>
-    <option value="6">6x (4K-ish)</option>
-  </select>
-
-  <label style="margin-left:10px">Nama file:</label>
-  <input type="text" id="filename" value="epai-logo" style="background:#111118;border:1.5px solid #222;border-radius:7px;color:#ccc;padding:7px 10px;font-size:0.8rem;outline:none;width:130px"/>
+<div class="controls">
+  <button id="previewBtn" onclick="startPreview()">▶ Preview</button>
+  <button id="recBtn" onclick="startRecord()">⏺ Record & Download</button>
+  <button onclick="stopAll()" id="stopBtn" disabled>■ Stop</button>
 </div>
-
-<button class="btn" onclick="exportPNG()">⬇ Download PNG</button>
-
-<div id="preview-wrap">
-  <img id="preview" src="" alt="preview"/>
-</div>
-
-<div id="msg"></div>
+<div id="status">Tekan Preview atau langsung Record</div>
+<div class="note">Record akan otomatis berhenti setelah animasi selesai (~15 detik) dan langsung diunduh sebagai .webm</div>
 
 <script>
-function exportPNG() {
-  const svgText = document.getElementById('svgInput').value.trim();
-  const scale = parseInt(document.getElementById('scale').value);
-  const filename = document.getElementById('filename').value.trim() || 'logo';
-  const msg = document.getElementById('msg');
+const canvas = document.getElementById('c');
+const ctx = canvas.getContext('2d');
+const W = 480, H = 848;
 
-  if (!svgText) {
-    msg.textContent = '⚠ Paste dulu kode SVG-nya!';
-    return;
-  }
+// ── STARS ──────────────────────────────────────────────
+const STARS = [];
+for (let i = 0; i < 180; i++) {
+  STARS.push({
+    x: Math.random() * W,
+    y: Math.random() * H,
+    r: Math.random() * 1.4 + 0.2,
+    speed: Math.random() * 0.3 + 0.05,
+    phase: Math.random() * Math.PI * 2,
+    brightness: Math.random() * 0.6 + 0.4,
+  });
+}
 
-  // Parse SVG
-  const parser = new DOMParser();
-  const doc = parser.parseFromString(svgText, 'image/svg+xml');
-  const svgEl = doc.querySelector('svg');
+// ── NEBULA CLOUDS ──────────────────────────────────────
+const NEBULAS = [
+  { x: 80,  y: 180, rx: 120, ry: 70,  color: 'rgba(30,60,120,0.18)',  rot: -0.3 },
+  { x: 380, y: 320, rx: 100, ry: 60,  color: 'rgba(20,80,100,0.14)',  rot:  0.5 },
+  { x: 200, y: 600, rx: 150, ry: 80,  color: 'rgba(50,30,100,0.12)',  rot:  0.1 },
+  { x: 420, y: 680, rx: 90,  ry: 50,  color: 'rgba(20,60,90,0.10)',   rot: -0.2 },
+];
 
-  if (!svgEl) {
-    msg.textContent = '⚠ SVG tidak valid!';
-    return;
-  }
+// ── ROCKET ─────────────────────────────────────────────
+let rocket = { x: W/2, y: H + 100, trail: [] };
 
-  // Get dimensions
-  let w = parseFloat(svgEl.getAttribute('width'));
-  let h = parseFloat(svgEl.getAttribute('height'));
+// ── CONSTELLATION ──────────────────────────────────────
+const CONST_NODES = [
+  {x:100,y:160},{x:160,y:120},{x:240,y:140},{x:300,y:100},
+  {x:370,y:130},{x:320,y:180},{x:240,y:200},{x:170,y:190}
+];
+const CONST_EDGES = [[0,1],[1,2],[2,3],[3,4],[4,5],[5,6],[6,7],[7,0],[2,6],[1,7]];
 
-  if (!w || !h) {
-    const vb = svgEl.getAttribute('viewBox');
-    if (vb) {
-      const parts = vb.trim().split(/[\s,]+/);
-      w = parseFloat(parts[2]);
-      h = parseFloat(parts[3]);
+// ── ORBIT RING ─────────────────────────────────────────
+let orbitAngle = 0;
+
+// ── ANIMATION STATE ────────────────────────────────────
+// Timeline (seconds):
+// 0-2   : stars fade in, nebula appears
+// 2-5   : constellation draws in
+// 5-8   : rocket launches from bottom, flies up
+// 8-10  : rocket exits, orbit ring appears with planet
+// 10-13 : EPAI text reveal with glow
+// 13-15 : hold + fade out
+
+let t = 0;
+let animId = null;
+let lastTime = null;
+let mediaRecorder = null;
+let chunks = [];
+let recording = false;
+let stopped = false;
+
+function ease(x) { return x < 0.5 ? 2*x*x : 1-Math.pow(-2*x+2,2)/2; }
+function clamp(v,a,b) { return Math.max(a,Math.min(b,v)); }
+function lerp(a,b,t) { return a+(b-a)*t; }
+
+// ── DRAW FUNCTIONS ─────────────────────────────────────
+
+function drawBg(t) {
+  // Deep space gradient
+  const bg = ctx.createRadialGradient(W/2, H*0.4, 0, W/2, H*0.4, H*0.8);
+  bg.addColorStop(0, '#0a1628');
+  bg.addColorStop(0.5, '#060d1a');
+  bg.addColorStop(1, '#020609');
+  ctx.fillStyle = bg;
+  ctx.fillRect(0, 0, W, H);
+}
+
+function drawNebulas(t) {
+  const fade = clamp(t/1.5, 0, 1);
+  NEBULAS.forEach(n => {
+    ctx.save();
+    ctx.translate(n.x, n.y);
+    ctx.rotate(n.rot);
+    const g = ctx.createRadialGradient(0, 0, 0, 0, 0, n.rx);
+    const base = n.color.replace(')', `,${fade})`).replace('rgba(','').split(',');
+    // just draw with globalAlpha
+    ctx.globalAlpha = fade * 0.8;
+    ctx.fillStyle = n.color;
+    ctx.beginPath();
+    ctx.ellipse(0, 0, n.rx, n.ry, 0, 0, Math.PI*2);
+    ctx.fill();
+    ctx.restore();
+  });
+  ctx.globalAlpha = 1;
+}
+
+function drawStars(t) {
+  const fade = clamp(t/2, 0, 1);
+  STARS.forEach(s => {
+    const twinkle = 0.5 + 0.5*Math.sin(t*2 + s.phase);
+    const alpha = s.brightness * twinkle * fade;
+    // slight parallax drift downward (rocket going up illusion)
+    let dy = 0;
+    if (t > 5 && t < 9) {
+      const rp = clamp((t-5)/3, 0, 1);
+      dy = rp * 30 * s.speed;
     }
+    ctx.beginPath();
+    ctx.arc(s.x, (s.y + dy) % H, s.r, 0, Math.PI*2);
+    ctx.fillStyle = `rgba(180,220,255,${alpha})`;
+    ctx.fill();
+    // bright star glow
+    if (s.r > 1.2 && s.brightness > 0.8) {
+      ctx.beginPath();
+      ctx.arc(s.x, (s.y + dy) % H, s.r*3, 0, Math.PI*2);
+      ctx.fillStyle = `rgba(150,200,255,${alpha*0.15})`;
+      ctx.fill();
+    }
+  });
+}
+
+function drawConstellation(t) {
+  if (t < 2) return;
+  const prog = clamp((t-2)/3, 0, 1);
+  const fade = clamp((t-2)/1, 0, 1);
+
+  // Draw edges progressively
+  CONST_EDGES.forEach((edge, i) => {
+    const start = i / CONST_EDGES.length;
+    const end = (i+1) / CONST_EDGES.length;
+    const localProg = clamp((prog - start) / (end - start), 0, 1);
+    if (localProg <= 0) return;
+
+    const a = CONST_NODES[edge[0]];
+    const b = CONST_NODES[edge[1]];
+    const ex = lerp(a.x, b.x, localProg);
+    const ey = lerp(a.y, b.y, localProg);
+
+    ctx.beginPath();
+    ctx.moveTo(a.x, a.y);
+    ctx.lineTo(ex, ey);
+    ctx.strokeStyle = `rgba(100,180,220,${0.4*fade})`;
+    ctx.lineWidth = 0.8;
+    ctx.stroke();
+  });
+
+  // Draw nodes
+  CONST_NODES.forEach((n, i) => {
+    const np = clamp((prog - i/CONST_NODES.length) / (1/CONST_NODES.length), 0, 1);
+    if (np <= 0) return;
+    ctx.beginPath();
+    ctx.arc(n.x, n.y, 2.5, 0, Math.PI*2);
+    ctx.fillStyle = `rgba(160,220,255,${np * fade * 0.9})`;
+    ctx.fill();
+    // glow
+    ctx.beginPath();
+    ctx.arc(n.x, n.y, 6, 0, Math.PI*2);
+    ctx.fillStyle = `rgba(100,180,240,${np * fade * 0.15})`;
+    ctx.fill();
+  });
+}
+
+function drawRocket(t) {
+  if (t < 5 || t > 9.5) return;
+  const prog = clamp((t-5)/3.5, 0, 1);
+  const easedProg = ease(prog);
+
+  // rocket goes from bottom to slightly above center, then curves and exits top
+  let ry, rx, rot;
+  if (prog < 0.7) {
+    ry = lerp(H+80, H*0.35, ease(prog/0.7));
+    rx = W/2;
+    rot = 0;
+  } else {
+    const p2 = (prog-0.7)/0.3;
+    ry = lerp(H*0.35, -120, ease(p2));
+    rx = lerp(W/2, W*0.6, p2);
+    rot = p2 * 0.4;
   }
 
-  if (!w || !h) { w = 500; h = 500; }
+  // trail
+  rocket.trail.push({x:rx, y:ry, t:t});
+  rocket.trail = rocket.trail.filter(p => t - p.t < 0.5);
 
-  const canvasW = w * scale;
-  const canvasH = h * scale;
+  // draw trail
+  rocket.trail.forEach((p, i) => {
+    const age = t - p.t;
+    const a = (1 - age/0.5) * 0.7;
+    const size = (1 - age/0.5) * 12;
+    const g = ctx.createRadialGradient(p.x, p.y+size, 0, p.x, p.y+size, size*2);
+    g.addColorStop(0, `rgba(255,160,50,${a})`);
+    g.addColorStop(0.4, `rgba(255,80,20,${a*0.5})`);
+    g.addColorStop(1, `rgba(255,50,0,0)`);
+    ctx.fillStyle = g;
+    ctx.beginPath();
+    ctx.arc(p.x, p.y+size, size*2, 0, Math.PI*2);
+    ctx.fill();
+  });
 
-  // Force SVG size
-  svgEl.setAttribute('width', w);
-  svgEl.setAttribute('height', h);
+  ctx.save();
+  ctx.translate(rx, ry);
+  ctx.rotate(rot);
 
-  // Check if SVG has transparent background
-  // (no explicit background rect / fill on root)
-  const hasBackground = checkHasBackground(svgEl);
+  const s = 1.1; // scale
 
-  const serializer = new XMLSerializer();
-  const svgStr = serializer.serializeToString(svgEl);
-  const blob = new Blob([svgStr], { type: 'image/svg+xml;charset=utf-8' });
-  const url = URL.createObjectURL(blob);
+  // flame
+  const flameH = 30 + Math.sin(t*20)*5;
+  const fg = ctx.createLinearGradient(0, 20*s, 0, (20+flameH)*s);
+  fg.addColorStop(0, 'rgba(255,200,50,0.95)');
+  fg.addColorStop(0.4, 'rgba(255,100,20,0.8)');
+  fg.addColorStop(1, 'rgba(255,50,0,0)');
+  ctx.fillStyle = fg;
+  ctx.beginPath();
+  ctx.moveTo(-8*s, 20*s);
+  ctx.quadraticCurveTo(0, (20+flameH*1.3)*s, 8*s, 20*s);
+  ctx.fill();
 
-  const img = new Image();
-  img.onload = function() {
-    const canvas = document.createElement('canvas');
-    canvas.width = canvasW;
-    canvas.height = canvasH;
-    const ctx = canvas.getContext('2d');
+  // body
+  const bodyGrad = ctx.createLinearGradient(-18*s, 0, 18*s, 0);
+  bodyGrad.addColorStop(0, '#b0c8e0');
+  bodyGrad.addColorStop(0.3, '#e8f4ff');
+  bodyGrad.addColorStop(0.7, '#d0e8f8');
+  bodyGrad.addColorStop(1, '#8aaabb');
+  ctx.fillStyle = bodyGrad;
+  ctx.beginPath();
+  ctx.roundRect(-14*s, -40*s, 28*s, 60*s, 5*s);
+  ctx.fill();
 
-    // Only fill white if SVG has a background, else keep transparent
-    if (hasBackground) {
-      // draw as-is (background already in SVG)
+  // nose cone
+  ctx.fillStyle = '#c8dce8';
+  ctx.beginPath();
+  ctx.moveTo(-14*s, -40*s);
+  ctx.quadraticCurveTo(-14*s, -70*s, 0, -80*s);
+  ctx.quadraticCurveTo(14*s, -70*s, 14*s, -40*s);
+  ctx.fill();
+
+  // window
+  ctx.beginPath();
+  ctx.arc(0, -18*s, 9*s, 0, Math.PI*2);
+  ctx.fillStyle = '#1a3a5a';
+  ctx.fill();
+  ctx.beginPath();
+  ctx.arc(0, -18*s, 7*s, 0, Math.PI*2);
+  ctx.fillStyle = '#2a5a8a';
+  ctx.fill();
+  // window glint
+  ctx.beginPath();
+  ctx.arc(-3*s, -21*s, 2.5*s, 0, Math.PI*2);
+  ctx.fillStyle = 'rgba(180,220,255,0.6)';
+  ctx.fill();
+
+  // fins
+  ctx.fillStyle = '#8ab4cc';
+  // left
+  ctx.beginPath();
+  ctx.moveTo(-14*s, 10*s);
+  ctx.lineTo(-28*s, 22*s);
+  ctx.lineTo(-14*s, 20*s);
+  ctx.closePath();
+  ctx.fill();
+  // right
+  ctx.beginPath();
+  ctx.moveTo(14*s, 10*s);
+  ctx.lineTo(28*s, 22*s);
+  ctx.lineTo(14*s, 20*s);
+  ctx.closePath();
+  ctx.fill();
+
+  // highlight
+  ctx.fillStyle = 'rgba(255,255,255,0.18)';
+  ctx.beginPath();
+  ctx.ellipse(-5*s, -30*s, 4*s, 14*s, -0.2, 0, Math.PI*2);
+  ctx.fill();
+
+  ctx.restore();
+}
+
+function drawOrbit(t) {
+  if (t < 8.5) return;
+  const fade = clamp((t-8.5)/1.5, 0, 1);
+  const cx = W/2, cy = H*0.38;
+
+  orbitAngle += 0.008;
+
+  // outer orbit ellipse
+  ctx.save();
+  ctx.globalAlpha = fade * 0.7;
+  ctx.translate(cx, cy);
+  ctx.rotate(-0.3);
+  ctx.beginPath();
+  ctx.ellipse(0, 0, 160, 45, 0, 0, Math.PI*2);
+  const og = ctx.createLinearGradient(-160, 0, 160, 0);
+  og.addColorStop(0, 'rgba(79,195,247,0.9)');
+  og.addColorStop(0.5, 'rgba(100,120,200,0.3)');
+  og.addColorStop(1, 'rgba(79,195,247,0.8)');
+  ctx.strokeStyle = og;
+  ctx.lineWidth = 1.4;
+  ctx.stroke();
+  ctx.restore();
+
+  // inner orbit
+  ctx.save();
+  ctx.globalAlpha = fade * 0.5;
+  ctx.translate(cx, cy);
+  ctx.rotate(0.2);
+  ctx.beginPath();
+  ctx.ellipse(0, 0, 110, 30, 0, 0, Math.PI*2);
+  ctx.strokeStyle = 'rgba(128,222,234,0.6)';
+  ctx.lineWidth = 1;
+  ctx.stroke();
+  ctx.restore();
+
+  // planet
+  ctx.save();
+  ctx.globalAlpha = fade;
+  const pg = ctx.createRadialGradient(cx-18, cy-15, 5, cx, cy, 55);
+  pg.addColorStop(0, '#c8e6ff');
+  pg.addColorStop(0.3, '#5bafd6');
+  pg.addColorStop(0.7, '#2c6fa0');
+  pg.addColorStop(1, '#14365a');
+  ctx.beginPath();
+  ctx.arc(cx, cy, 55, 0, Math.PI*2);
+  ctx.fillStyle = pg;
+  ctx.fill();
+  // planet glow
+  ctx.beginPath();
+  ctx.arc(cx, cy, 62, 0, Math.PI*2);
+  ctx.fillStyle = 'rgba(79,150,200,0.1)';
+  ctx.fill();
+  // highlight
+  ctx.beginPath();
+  ctx.ellipse(cx-18, cy-16, 18, 10, -0.4, 0, Math.PI*2);
+  ctx.fillStyle = 'rgba(255,255,255,0.1)';
+  ctx.fill();
+  ctx.restore();
+
+  // orbiting moon on outer ring
+  ctx.save();
+  ctx.globalAlpha = fade * 0.9;
+  const mx = cx + 160*Math.cos(orbitAngle - 0.3) * Math.cos(-0.3) - 45*Math.sin(orbitAngle - 0.3) * Math.sin(-0.3);
+  const my = cy + 160*Math.cos(orbitAngle - 0.3) * Math.sin(-0.3) + 45*Math.sin(orbitAngle - 0.3) * Math.cos(-0.3);
+  ctx.beginPath();
+  ctx.arc(mx, my, 6, 0, Math.PI*2);
+  const mg = ctx.createRadialGradient(mx-2, my-2, 1, mx, my, 6);
+  mg.addColorStop(0, '#e0f4ff');
+  mg.addColorStop(1, '#7ab8d8');
+  ctx.fillStyle = mg;
+  ctx.fill();
+  // moon glow
+  ctx.beginPath();
+  ctx.arc(mx, my, 12, 0, Math.PI*2);
+  ctx.fillStyle = 'rgba(150,220,255,0.15)';
+  ctx.fill();
+  ctx.restore();
+}
+
+function drawTextReveal(t) {
+  if (t < 10) return;
+  const fade = clamp((t-10)/1.5, 0, 1);
+  const holdFade = t > 14 ? clamp(1-(t-14)/1, 0, 1) : 1;
+  const alpha = ease(fade) * holdFade;
+
+  const cy = H * 0.72;
+
+  // decorative lines
+  ctx.save();
+  ctx.globalAlpha = alpha * 0.5;
+  ctx.strokeStyle = '#4fc3f7';
+  ctx.lineWidth = 0.8;
+  ctx.setLineDash([4, 6]);
+  ctx.beginPath();
+  ctx.moveTo(60, cy - 52);
+  ctx.lineTo(W - 60, cy - 52);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.moveTo(60, cy + 52);
+  ctx.lineTo(W - 60, cy + 52);
+  ctx.stroke();
+  ctx.setLineDash([]);
+  // diamond center
+  ctx.globalAlpha = alpha * 0.7;
+  ctx.save();
+  ctx.translate(W/2, cy - 52);
+  ctx.rotate(Math.PI/4);
+  ctx.fillStyle = '#4fc3f7';
+  ctx.fillRect(-4, -4, 8, 8);
+  ctx.restore();
+  ctx.restore();
+
+  // EPAI glow layer
+  ctx.save();
+  ctx.globalAlpha = alpha * 0.25;
+  ctx.fillStyle = '#4fc3f7';
+  ctx.font = `bold 96px 'Georgia', serif`;
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.filter = 'blur(12px)';
+  ctx.fillText('EPAI', W/2 + 2, cy);
+  ctx.filter = 'none';
+  ctx.restore();
+
+  // EPAI main
+  ctx.save();
+  ctx.globalAlpha = alpha;
+  ctx.font = `bold 96px 'Georgia', serif`;
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.letterSpacing = '12px';
+
+  // stroke outline
+  ctx.strokeStyle = 'rgba(79,195,247,0.4)';
+  ctx.lineWidth = 1.5;
+  ctx.strokeText('EPAI', W/2, cy);
+
+  // fill
+  const tg = ctx.createLinearGradient(W/2-120, cy-40, W/2+120, cy+40);
+  tg.addColorStop(0, '#d0eeff');
+  tg.addColorStop(0.4, '#ffffff');
+  tg.addColorStop(0.7, '#b0d8f8');
+  tg.addColorStop(1, '#80c0e8');
+  ctx.fillStyle = tg;
+  ctx.fillText('EPAI', W/2, cy);
+  ctx.restore();
+
+  // subtitle
+  ctx.save();
+  ctx.globalAlpha = alpha * 0.85;
+  ctx.font = `11px 'Georgia', serif`;
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillStyle = '#7ecfed';
+  ctx.letterSpacing = '3px';
+  ctx.fillText('EDUKASI PARA ASTRONOMI INDONESIA', W/2, cy + 64);
+  ctx.restore();
+
+  // tagline
+  ctx.save();
+  ctx.globalAlpha = alpha * 0.55;
+  ctx.font = `italic 10px 'Georgia', serif`;
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillStyle = '#3a8aaa';
+  ctx.fillText('komunitas  ·  berbagi ilmu  ·  luar angkasa', W/2, cy + 88);
+  ctx.restore();
+}
+
+function drawScanline(t) {
+  // subtle scanline/vignette overlay
+  const vig = ctx.createRadialGradient(W/2, H/2, H*0.2, W/2, H/2, H*0.85);
+  vig.addColorStop(0, 'rgba(0,0,0,0)');
+  vig.addColorStop(1, 'rgba(0,0,0,0.55)');
+  ctx.fillStyle = vig;
+  ctx.fillRect(0, 0, W, H);
+
+  // film grain
+  ctx.globalAlpha = 0.025;
+  for (let i = 0; i < 600; i++) {
+    const gx = Math.random() * W;
+    const gy = Math.random() * H;
+    ctx.fillStyle = Math.random() > 0.5 ? '#fff' : '#000';
+    ctx.fillRect(gx, gy, 1, 1);
+  }
+  ctx.globalAlpha = 1;
+}
+
+// ── SHOOTING STARS ──────────────────────────────────────
+const SHOOTS = [
+  { startT: 1.2,  x: 350, y: 80,  dx: -120, dy: 60  },
+  { startT: 3.8,  x: 50,  y: 200, dx: 100,  dy: 40  },
+  { startT: 7.1,  x: 400, y: 50,  dx: -150, dy: 80  },
+  { startT: 11.5, x: 80,  y: 300, dx: 130,  dy: 50  },
+];
+
+function drawShootingStars(t) {
+  SHOOTS.forEach(s => {
+    const age = t - s.startT;
+    if (age < 0 || age > 0.5) return;
+    const p = age / 0.5;
+    const x2 = s.x + s.dx * p;
+    const y2 = s.y + s.dy * p;
+    const grad = ctx.createLinearGradient(s.x, s.y, x2, y2);
+    grad.addColorStop(0, 'rgba(255,255,255,0)');
+    grad.addColorStop(0.3, `rgba(200,230,255,${0.7*(1-p)})`);
+    grad.addColorStop(1, `rgba(255,255,255,${0.9*(1-p)})`);
+    ctx.beginPath();
+    ctx.moveTo(s.x, s.y);
+    ctx.lineTo(x2, y2);
+    ctx.strokeStyle = grad;
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+    // head dot
+    ctx.beginPath();
+    ctx.arc(x2, y2, 2, 0, Math.PI*2);
+    ctx.fillStyle = `rgba(255,255,255,${(1-p)*0.9})`;
+    ctx.fill();
+  });
+}
+
+// ── MAIN LOOP ──────────────────────────────────────────
+const TOTAL_DURATION = 15;
+
+function frame(ts) {
+  if (!lastTime) lastTime = ts;
+  const dt = (ts - lastTime) / 1000;
+  lastTime = ts;
+  t += dt;
+
+  draw(t);
+
+  if (t < TOTAL_DURATION && !stopped) {
+    animId = requestAnimationFrame(frame);
+  } else if (!stopped) {
+    // end
+    stopped = true;
+    if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+      mediaRecorder.stop();
+      document.getElementById('status').textContent = 'Selesai! Menyiapkan download...';
+    } else {
+      document.getElementById('status').textContent = 'Animasi selesai.';
     }
-    // Always transparent canvas — let SVG decide
+    document.getElementById('stopBtn').disabled = true;
+    document.getElementById('previewBtn').disabled = false;
+    document.getElementById('recBtn').disabled = false;
+  }
+}
 
-    ctx.drawImage(img, 0, 0, canvasW, canvasH);
-    URL.revokeObjectURL(url);
+function draw(time) {
+  ctx.clearRect(0, 0, W, H);
+  drawBg(time);
+  drawNebulas(time);
+  drawStars(time);
+  drawShootingStars(time);
+  drawConstellation(time);
+  drawOrbit(time);
+  drawRocket(time);
+  drawTextReveal(time);
+  drawScanline(time);
+}
 
-    // Show preview
-    const previewWrap = document.getElementById('preview-wrap');
-    const preview = document.getElementById('preview');
-    canvas.toBlob(blob2 => {
-      const purl = URL.createObjectURL(blob2);
-      preview.src = purl;
-      previewWrap.style.display = 'flex';
-    }, 'image/png');
+function reset() {
+  if (animId) cancelAnimationFrame(animId);
+  animId = null;
+  lastTime = null;
+  t = 0;
+  stopped = false;
+  rocket.trail = [];
+  orbitAngle = 0;
+  chunks = [];
+}
 
-    // Download
+function startPreview() {
+  reset();
+  document.getElementById('previewBtn').disabled = true;
+  document.getElementById('recBtn').disabled = true;
+  document.getElementById('stopBtn').disabled = false;
+  document.getElementById('status').textContent = 'Memutar preview...';
+  animId = requestAnimationFrame(frame);
+}
+
+function startRecord() {
+  reset();
+  document.getElementById('previewBtn').disabled = true;
+  document.getElementById('recBtn').disabled = true;
+  document.getElementById('stopBtn').disabled = false;
+
+  let mimeType = 'video/webm;codecs=vp9';
+  if (!MediaRecorder.isTypeSupported(mimeType)) mimeType = 'video/webm;codecs=vp8';
+  if (!MediaRecorder.isTypeSupported(mimeType)) mimeType = 'video/webm';
+
+  const stream = canvas.captureStream(30);
+  mediaRecorder = new MediaRecorder(stream, { mimeType, videoBitsPerSecond: 5_000_000 });
+
+  mediaRecorder.ondataavailable = e => { if (e.data.size > 0) chunks.push(e.data); };
+  mediaRecorder.onstop = () => {
+    const blob = new Blob(chunks, { type: mimeType });
+    const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
-    a.download = filename + '.png';
-    a.href = canvas.toDataURL('image/png');
+    a.href = url;
+    a.download = 'EPAI_Animation.webm';
     a.click();
-
-    msg.textContent = `✅ Berhasil! Ukuran: ${canvasW}×${canvasH}px`;
+    setTimeout(() => URL.revokeObjectURL(url), 5000);
+    document.getElementById('status').textContent = '✅ Download dimulai! File: EPAI_Animation.webm';
+    recording = false;
   };
 
-  img.onerror = function() {
-    msg.textContent = '⚠ Gagal render SVG. Cek kode SVG-nya.';
-    URL.revokeObjectURL(url);
-  };
-
-  img.src = url;
-  msg.textContent = 'Memproses...';
+  mediaRecorder.start(100);
+  recording = true;
+  document.getElementById('status').textContent = '⏺ Recording... (~15 detik)';
+  animId = requestAnimationFrame(frame);
 }
 
-function checkHasBackground(svgEl) {
-  // Check if root SVG has a style/fill background
-  const style = svgEl.getAttribute('style') || '';
-  const fill = svgEl.getAttribute('fill') || '';
-  if (style.includes('background') || fill) return true;
-
-  // Check first-child rect that covers full area
-  const firstChild = svgEl.children[0];
-  if (firstChild && firstChild.tagName === 'rect') {
-    const rx = firstChild.getAttribute('x') || '0';
-    const ry = firstChild.getAttribute('y') || '0';
-    if (rx === '0' && ry === '0') return true;
+function stopAll() {
+  stopped = true;
+  if (animId) cancelAnimationFrame(animId);
+  if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+    mediaRecorder.stop();
+    document.getElementById('status').textContent = 'Dihentikan. File sedang disiapkan...';
+  } else {
+    document.getElementById('status').textContent = 'Dihentikan.';
   }
-  return false;
+  document.getElementById('stopBtn').disabled = true;
+  document.getElementById('previewBtn').disabled = false;
+  document.getElementById('recBtn').disabled = false;
 }
+
+// draw first frame on load
+draw(0);
 </script>
 </body>
 </html>
