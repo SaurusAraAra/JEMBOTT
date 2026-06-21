@@ -1,11 +1,12 @@
 {
   "date": "2026-06-21",
-  "total_req": 7,
+  "total_req": 8,
   "errors": 0,
   "unique_ips": [
     "172.71.xxx",
     "104.23.xxx",
     "172.70.xxx",
-    "162.158.xxx"
+    "162.158.xxx",
+    "104.22.xxx"
   ]
 }
