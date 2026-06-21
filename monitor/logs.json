@@ -1,5 +1,17 @@
 [
   {
+    "id": 495,
+    "ts": 1782030286264,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 761,
+    "ip": "104.23.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.17.0"
+  },
+  {
     "id": 494,
     "ts": 1782030276397,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 15,
-    "ts": 1782022189976,
-    "method": "GET",
-    "path": "/canvas/brat",
-    "status": 200,
-    "ms": 35,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
   }
 ]
