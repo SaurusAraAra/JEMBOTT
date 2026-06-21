@@ -1,5 +1,17 @@
 [
   {
+    "id": 179,
+    "ts": 1782052918595,
+    "method": "GET",
+    "path": "/ai-chat/claude-opus-4.5",
+    "status": 200,
+    "ms": 3237,
+    "ip": "2001:448a:10f1:86c8:f8ca:dc1b:4f0c:e334",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 178,
     "ts": 1782052871505,
     "method": "GET",
@@ -5982,18 +5994,6 @@
     "path": "/random/jkt48-video",
     "status": 200,
     "ms": 685,
-    "ip": "114.122.203.142",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 6,
-    "ts": 1782039517001,
-    "method": "GET",
-    "path": "/random/wallpaperislam",
-    "status": 200,
-    "ms": 620,
     "ip": "114.122.203.142",
     "apikey": null,
     "is_premium": 0,
