@@ -1,5 +1,41 @@
 [
   {
+    "id": 7,
+    "ts": 1782048594700,
+    "method": "GET",
+    "path": "/games/roblox/gag2-stock",
+    "status": 200,
+    "ms": 220,
+    "ip": "103.120.173.196",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 6,
+    "ts": 1782048593290,
+    "method": "GET",
+    "path": "/ai-chat/gemini-3.1-pro",
+    "status": 200,
+    "ms": 5094,
+    "ip": "182.9.36.31",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "WhatsApp/2.23.20.0"
+  },
+  {
+    "id": 5,
+    "ts": 1782048590456,
+    "method": "GET",
+    "path": "/games/roblox/gag2-stock",
+    "status": 200,
+    "ms": 250,
+    "ip": "103.120.173.196",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 4,
     "ts": 1782048572674,
     "method": "GET",
@@ -5962,41 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node-fetch"
-  },
-  {
-    "id": 8,
-    "ts": 1782036833375,
-    "method": "GET",
-    "path": "/ai-chat/gemini-3.1-flash-lite-preview",
-    "status": 200,
-    "ms": 918,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "WhatsApp/2.23.20.0"
-  },
-  {
-    "id": 7,
-    "ts": 1782036647060,
-    "method": "GET",
-    "path": "/edit/removewm",
-    "status": 500,
-    "ms": 101,
-    "ip": "172.68.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 6,
-    "ts": 1782036628231,
-    "method": "GET",
-    "path": "/edit/hd-video",
-    "status": 500,
-    "ms": 46,
-    "ip": "172.68.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
   }
 ]
