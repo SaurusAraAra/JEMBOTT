@@ -1,5 +1,17 @@
 [
   {
+    "id": 568,
+    "ts": 1782033276398,
+    "method": "GET",
+    "path": "/ai-generate/text-2-image",
+    "status": 200,
+    "ms": 64703,
+    "ip": "104.23.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 567,
     "ts": 1782033266197,
     "method": "GET",
@@ -5983,18 +5995,6 @@
     "status": 200,
     "ms": 1084,
     "ip": "104.23.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/1.18.0"
-  },
-  {
-    "id": 68,
-    "ts": 1782023450677,
-    "method": "GET",
-    "path": "/search/tiktok",
-    "status": 200,
-    "ms": 1476,
-    "ip": "172.70.xxx",
     "apikey": null,
     "is_premium": 0,
     "user_agent": "axios/1.18.0"
