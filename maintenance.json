@@ -1,6 +1,6 @@
 {
-  "maintenance": false,
-  "message": "",
-  "updatedAt": "2026-06-21T05:39:49.277Z",
-  "updatedBy": "admin"
+  "maintenance": true,
+  "message": "⚠️ DDoS terdeteksi (500 req/10s). Maintenance otomatis aktif. Contact: t.me/lordsaurus",
+  "updatedAt": "2026-06-21T06:13:54.516Z",
+  "autoTriggered": true
 }
