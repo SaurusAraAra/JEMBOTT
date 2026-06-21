@@ -1,5 +1,29 @@
 [
   {
+    "id": 266,
+    "ts": 1782028444380,
+    "method": "GET",
+    "path": "/tempmail/tempmail-create",
+    "status": 200,
+    "ms": 47,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 265,
+    "ts": 1782028440446,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 1000,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+  },
+  {
     "id": 264,
     "ts": 1782028429747,
     "method": "GET",
