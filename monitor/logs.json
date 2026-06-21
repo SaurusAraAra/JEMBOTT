@@ -1,5 +1,29 @@
 [
   {
+    "id": 95,
+    "ts": 1782024337823,
+    "method": "GET",
+    "path": "/canvas/brat",
+    "status": 200,
+    "ms": 3313,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 94,
+    "ts": 1782024336329,
+    "method": "GET",
+    "path": "/tools/fancytext",
+    "status": 200,
+    "ms": 3,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 93,
     "ts": 1782024174011,
     "method": "GET",
