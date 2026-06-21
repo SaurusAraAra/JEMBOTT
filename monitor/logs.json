@@ -1,5 +1,17 @@
 [
   {
+    "id": 44,
+    "ts": 1782049227856,
+    "method": "GET",
+    "path": "/movie/lk21/home",
+    "status": 200,
+    "ms": 1375,
+    "ip": "114.122.103.145",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+  },
+  {
     "id": 43,
     "ts": 1782049175458,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
-  },
-  {
-    "id": 45,
-    "ts": 1782037504146,
-    "method": "GET",
-    "path": "/canvas/fakeml",
-    "status": 200,
-    "ms": 2511,
-    "ip": "154.47.146.246",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/0.24.0"
   }
 ]
