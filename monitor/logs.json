@@ -1,5 +1,29 @@
 [
   {
+    "id": 484,
+    "ts": 1782030165162,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 134,
+    "ip": "104.23.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.17.0"
+  },
+  {
+    "id": 483,
+    "ts": 1782030164631,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 387,
+    "ip": "104.23.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.17.0"
+  },
+  {
     "id": 482,
     "ts": 1782030151732,
     "method": "GET",
@@ -5971,30 +5995,6 @@
     "status": 200,
     "ms": 181,
     "ip": "104.22.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; Redmi 8A Pro Build/QKQ1.191014.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/149.0.7827.91 Mobile Safari/537.36"
-  },
-  {
-    "id": 4,
-    "ts": 1782021848558,
-    "method": "GET",
-    "path": "/canvas/brat",
-    "status": 200,
-    "ms": 26,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; Redmi 8A Pro Build/QKQ1.191014.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/149.0.7827.91 Mobile Safari/537.36"
-  },
-  {
-    "id": 3,
-    "ts": 1782021829124,
-    "method": "GET",
-    "path": "/canvas/bratvid",
-    "status": 200,
-    "ms": 428,
-    "ip": "162.158.xxx",
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; Redmi 8A Pro Build/QKQ1.191014.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/149.0.7827.91 Mobile Safari/537.36"
