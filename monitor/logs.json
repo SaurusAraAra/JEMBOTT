@@ -1,5 +1,53 @@
 [
   {
+    "id": 538,
+    "ts": 1782031413050,
+    "method": "POST",
+    "path": "/ai-chat/claude-opus-4.8",
+    "status": 400,
+    "ms": 1,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+  },
+  {
+    "id": 537,
+    "ts": 1782031412927,
+    "method": "POST",
+    "path": "/ai-chat/claude-opus-4.8",
+    "status": 400,
+    "ms": 1,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+  },
+  {
+    "id": 536,
+    "ts": 1782031406727,
+    "method": "GET",
+    "path": "/ai-chat/gpt-5.5",
+    "status": 200,
+    "ms": 3452,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/0.24.0"
+  },
+  {
+    "id": 535,
+    "ts": 1782031406483,
+    "method": "GET",
+    "path": "/ai-chat/gpt-5.5",
+    "status": 200,
+    "ms": 2234,
+    "ip": "104.22.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/0.24.0"
+  },
+  {
     "id": 534,
     "ts": 1782031400884,
     "method": "GET",
@@ -5950,53 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 38,
-    "ts": 1782022852246,
-    "method": "GET",
-    "path": "/ai-chat/gemini-3.1-pro",
-    "status": 503,
-    "ms": 0,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "python-requests/2.33.1"
-  },
-  {
-    "id": 37,
-    "ts": 1782022849064,
-    "method": "GET",
-    "path": "/ai-chat/ai-coder",
-    "status": 503,
-    "ms": 0,
-    "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 36,
-    "ts": 1782022848609,
-    "method": "GET",
-    "path": "/ai-chat/gemini-3.1-pro",
-    "status": 503,
-    "ms": 1,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "python-requests/2.33.1"
-  },
-  {
-    "id": 35,
-    "ts": 1782022846482,
-    "method": "GET",
-    "path": "/ai-chat/gemini-3.1-pro",
-    "status": 503,
-    "ms": 1,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "python-requests/2.33.1"
   }
 ]
