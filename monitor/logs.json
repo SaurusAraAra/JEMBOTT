@@ -1,5 +1,41 @@
 [
   {
+    "id": 199,
+    "ts": 1782053324168,
+    "method": "GET",
+    "path": "/ai-chat/claude-haiku-4.5",
+    "status": 500,
+    "ms": 1066,
+    "ip": "157.15.66.67",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.18.0"
+  },
+  {
+    "id": 198,
+    "ts": 1782053322039,
+    "method": "GET",
+    "path": "/ai-chat/claude-opus-4.5",
+    "status": 200,
+    "ms": 2366,
+    "ip": "2001:448a:10f1:86c8:f8ca:dc1b:4f0c:e334",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 197,
+    "ts": 1782053319392,
+    "method": "GET",
+    "path": "/ai-chat/claude-opus-4.5",
+    "status": 200,
+    "ms": 2115,
+    "ip": "2001:448a:10f1:86c8:f8ca:dc1b:4f0c:e334",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 196,
     "ts": 1782053272243,
     "method": "GET",
@@ -5962,41 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
-  },
-  {
-    "id": 11,
-    "ts": 1782040232359,
-    "method": "GET",
-    "path": "/tempmail/tempmail-create-v2",
-    "status": 200,
-    "ms": 3563,
-    "ip": "103.120.173.196",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 10,
-    "ts": 1782040203444,
-    "method": "GET",
-    "path": "/download/tiktok",
-    "status": 200,
-    "ms": 1239,
-    "ip": "114.10.8.191",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 9,
-    "ts": 1782040202215,
-    "method": "GET",
-    "path": "/search/gsmarena",
-    "status": 404,
-    "ms": 481,
-    "ip": "103.120.173.196",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
   }
 ]
