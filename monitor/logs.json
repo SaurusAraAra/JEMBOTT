@@ -1,5 +1,17 @@
 [
   {
+    "id": 2,
+    "ts": 1782037743331,
+    "method": "GET",
+    "path": "/ai-chat/ai-coder",
+    "status": 200,
+    "ms": 55655,
+    "ip": "157.20.207.201",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
+  },
+  {
     "id": 1,
     "ts": 1782037704318,
     "method": "POST",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "axios/0.24.0"
-  },
-  {
-    "id": 233,
-    "ts": 1782028121551,
-    "method": "GET",
-    "path": "/canvas/fakeff",
-    "status": 200,
-    "ms": 143,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node-fetch"
   }
 ]
