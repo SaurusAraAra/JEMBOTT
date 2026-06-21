@@ -1,5 +1,17 @@
 [
   {
+    "id": 292,
+    "ts": 1782028801323,
+    "method": "GET",
+    "path": "/canvas/pakustadz",
+    "status": 304,
+    "ms": 551,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
+  },
+  {
     "id": 291,
     "ts": 1782028779613,
     "method": "GET",
