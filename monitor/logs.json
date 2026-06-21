@@ -1,5 +1,17 @@
 [
   {
+    "id": 183,
+    "ts": 1782053080689,
+    "method": "GET",
+    "path": "/ai-chat/x.ai-grok-4.1",
+    "status": 200,
+    "ms": 3795,
+    "ip": "112.215.149.62",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 12; V2111 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/149.0.7827.91 Mobile Safari/537.36"
+  },
+  {
     "id": 182,
     "ts": 1782053025976,
     "method": "GET",
@@ -5982,18 +5994,6 @@
     "path": "/canvas/fake-dana",
     "status": 200,
     "ms": 854,
-    "ip": "103.112.244.90",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0"
-  },
-  {
-    "id": 10,
-    "ts": 1782039674992,
-    "method": "GET",
-    "path": "/canvas/fake-dana",
-    "status": 400,
-    "ms": 1,
     "ip": "103.112.244.90",
     "apikey": null,
     "is_premium": 0,
