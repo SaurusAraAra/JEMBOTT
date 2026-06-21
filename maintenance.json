@@ -1,6 +1,6 @@
 {
-  "maintenance": false,
+  "maintenance": true,
   "message": "Server sedang dalam perbaikan, mungkin ada Serangan DoS/Ddos makanya maintenance",
-  "updatedAt": "2026-06-21T16:34:09.134Z",
+  "updatedAt": "2026-06-21T16:34:14.753Z",
   "updatedBy": "admin"
 }
