@@ -1,5 +1,41 @@
 [
   {
+    "id": 489,
+    "ts": 1782056002368,
+    "method": "GET",
+    "path": "/ai-chat/gemini-3-pro",
+    "status": 200,
+    "ms": 2579,
+    "ip": "160.19.19.242",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 488,
+    "ts": 1782056000013,
+    "method": "GET",
+    "path": "/ai-chat/claude-opus-4.6",
+    "status": 200,
+    "ms": 2957,
+    "ip": "98.86.230.151",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  },
+  {
+    "id": 487,
+    "ts": 1782055997669,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox",
+    "status": 200,
+    "ms": 54,
+    "ip": "114.10.64.201",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
     "id": 486,
     "ts": 1782055987078,
     "method": "GET",
@@ -5962,41 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "axios/1.18.0"
-  },
-  {
-    "id": 19,
-    "ts": 1782047707682,
-    "method": "GET",
-    "path": "/canvas/fakeff",
-    "status": 200,
-    "ms": 159,
-    "ip": "37.114.34.51",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node-fetch"
-  },
-  {
-    "id": 18,
-    "ts": 1782047703169,
-    "method": "GET",
-    "path": "/search/tiktok",
-    "status": 200,
-    "ms": 1864,
-    "ip": "37.114.42.83",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/1.18.0"
-  },
-  {
-    "id": 17,
-    "ts": 1782047682738,
-    "method": "GET",
-    "path": "/canvas/fakeff",
-    "status": 200,
-    "ms": 147,
-    "ip": "37.114.34.51",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node-fetch"
   }
 ]
