@@ -1,4 +1,6 @@
 {
-  "maintenance": false,
-  "message": "Server sedang dalam pemeliharaan, mohon tunggu beberapa saat."
+  "maintenance": true,
+  "message": "Server sedang dalam pemeliharaan, mohon tunggu beberapa saat.",
+  "updatedAt": "2026-06-21T05:25:19.006Z",
+  "updatedBy": "admin"
 }
