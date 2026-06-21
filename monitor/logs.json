@@ -1,5 +1,29 @@
 [
   {
+    "id": 8,
+    "ts": 1782038791420,
+    "method": "GET",
+    "path": "/ai-chat/gemini-3.1-flash-lite-preview",
+    "status": 200,
+    "ms": 832,
+    "ip": "2404:c0:c201:c23b:11:f593:1fa5:9530",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
+  },
+  {
+    "id": 7,
+    "ts": 1782038784487,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 652,
+    "ip": "114.10.79.138",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+  },
+  {
     "id": 6,
     "ts": 1782038777632,
     "method": "GET",
@@ -5974,29 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "WhatsApp/2.23.20.0"
-  },
-  {
-    "id": 292,
-    "ts": 1782028801323,
-    "method": "GET",
-    "path": "/canvas/pakustadz",
-    "status": 304,
-    "ms": 551,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
-  },
-  {
-    "id": 291,
-    "ts": 1782028779613,
-    "method": "GET",
-    "path": "/tempmail/tempmail-inbox",
-    "status": 200,
-    "ms": 33,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": ""
   }
 ]
