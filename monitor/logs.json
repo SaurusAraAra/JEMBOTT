@@ -1,5 +1,29 @@
 [
   {
+    "id": 10,
+    "ts": 1782021936478,
+    "method": "GET",
+    "path": "/edit/transform/toputih",
+    "status": 500,
+    "ms": 458,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.18.0"
+  },
+  {
+    "id": 9,
+    "ts": 1782021936462,
+    "method": "GET",
+    "path": "/edit/nanobanana",
+    "status": 500,
+    "ms": 365,
+    "ip": "104.22.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.18.0"
+  },
+  {
     "id": 8,
     "ts": 1782021890453,
     "method": "GET",
