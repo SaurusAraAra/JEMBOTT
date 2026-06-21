@@ -1,5 +1,17 @@
 [
   {
+    "id": 65,
+    "ts": 1782023327167,
+    "method": "GET",
+    "path": "/ai-chat/claude-opus-4.8",
+    "status": 500,
+    "ms": 345,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "python-requests/2.33.1"
+  },
+  {
     "id": 64,
     "ts": 1782023323327,
     "method": "GET",
