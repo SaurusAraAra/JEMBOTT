@@ -1,5 +1,17 @@
 [
   {
+    "id": 4,
+    "ts": 1782039131683,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 719,
+    "ip": "114.10.76.138",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.18.0"
+  },
+  {
     "id": 3,
     "ts": 1782039041447,
     "method": "GET",
@@ -5982,18 +5994,6 @@
     "path": "/canvas/quotesnokia",
     "status": 200,
     "ms": 493,
-    "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
-  },
-  {
-    "id": 297,
-    "ts": 1782028991324,
-    "method": "GET",
-    "path": "/canvas/quotes-v2",
-    "status": 200,
-    "ms": 1025,
     "ip": "172.70.xxx",
     "apikey": null,
     "is_premium": 0,
