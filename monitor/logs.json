@@ -1,5 +1,17 @@
 [
   {
+    "id": 36,
+    "ts": 1782049010702,
+    "method": "GET",
+    "path": "/games/roblox/gag2-stock",
+    "status": 200,
+    "ms": 222,
+    "ip": "103.120.173.196",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 14; Infinix X6731B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/149.0.7827.91 Mobile Safari/537.36"
+  },
+  {
     "id": 35,
     "ts": 1782048978247,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "axios/0.24.0"
-  },
-  {
-    "id": 37,
-    "ts": 1782037331185,
-    "method": "GET",
-    "path": "/canvas/fakeff",
-    "status": 200,
-    "ms": 274,
-    "ip": "37.114.34.51",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node-fetch"
   }
 ]
