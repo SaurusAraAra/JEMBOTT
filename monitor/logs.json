@@ -1,5 +1,29 @@
 [
   {
+    "id": 116,
+    "ts": 1782024684361,
+    "method": "GET",
+    "path": "/ai-chat/deepseek-v3.2-thinking",
+    "status": 200,
+    "ms": 2944,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 115,
+    "ts": 1782024676881,
+    "method": "GET",
+    "path": "/canvas/fakeff",
+    "status": 200,
+    "ms": 198,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node-fetch"
+  },
+  {
     "id": 114,
     "ts": 1782024669578,
     "method": "GET",
