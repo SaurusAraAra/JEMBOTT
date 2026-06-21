@@ -1,5 +1,17 @@
 [
   {
+    "id": 6,
+    "ts": 1782045492004,
+    "method": "GET",
+    "path": "/check/cek-nameserver",
+    "status": 200,
+    "ms": 4804,
+    "ip": "2402:8780:1059:1566:2cca:a1ed:3ac2:faa6",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 5,
     "ts": 1782045485302,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "axios/1.17.0"
-  },
-  {
-    "id": 486,
-    "ts": 1782030166222,
-    "method": "GET",
-    "path": "/ai-chat/claude-opus-4.8",
-    "status": 200,
-    "ms": 5143,
-    "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Google-Lens"
   }
 ]
