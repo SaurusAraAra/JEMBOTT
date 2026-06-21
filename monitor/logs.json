@@ -1,5 +1,29 @@
 [
   {
+    "id": 60,
+    "ts": 1782023272468,
+    "method": "GET",
+    "path": "/ai-chat/asynt-ai",
+    "status": 200,
+    "ms": 5149,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 59,
+    "ts": 1782023271757,
+    "method": "GET",
+    "path": "/canvas/e-ktp",
+    "status": 200,
+    "ms": 2744,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 58,
     "ts": 1782023260536,
     "method": "GET",
