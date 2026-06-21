@@ -1,5 +1,29 @@
 [
   {
+    "id": 10,
+    "ts": 1782047252604,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox",
+    "status": 200,
+    "ms": 58,
+    "ip": "38.46.214.252",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 9,
+    "ts": 1782047251484,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox-v2",
+    "status": 200,
+    "ms": 803,
+    "ip": "202.65.239.49",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 8,
     "ts": 1782047241464,
     "method": "GET",
@@ -5974,29 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
-  },
-  {
-    "id": 609,
-    "ts": 1782035580680,
-    "method": "GET",
-    "path": "/tools/url-shortener",
-    "status": 200,
-    "ms": 36,
-    "ip": "104.23.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 608,
-    "ts": 1782035556750,
-    "method": "GET",
-    "path": "/canvas/sudahsaatnya",
-    "status": 200,
-    "ms": 111,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/0.24.0"
   }
 ]
