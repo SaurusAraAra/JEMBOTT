@@ -1,5 +1,29 @@
 [
   {
+    "id": 4,
+    "ts": 1782059401747,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox",
+    "status": 200,
+    "ms": 52,
+    "ip": "204.51.34.52",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
+    "id": 3,
+    "ts": 1782059400780,
+    "method": "GET",
+    "path": "/tempmail/tempmail-create",
+    "status": 200,
+    "ms": 128,
+    "ip": "204.51.34.52",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
     "id": 2,
     "ts": 1782059353489,
     "method": "GET",
@@ -5974,29 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 12; V2111 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/149.0.7827.91 Mobile Safari/537.36"
-  },
-  {
-    "id": 157,
-    "ts": 1782052314744,
-    "method": "GET",
-    "path": "/ai-chat/claude-opus-4.8",
-    "status": 200,
-    "ms": 3573,
-    "ip": "157.15.66.67",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 156,
-    "ts": 1782052307739,
-    "method": "GET",
-    "path": "/ai-chat/x.ai-grok-4.1",
-    "status": 200,
-    "ms": 3704,
-    "ip": "2001:448a:10f1:86c8:f8ca:dc1b:4f0c:e334",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36"
   }
 ]
