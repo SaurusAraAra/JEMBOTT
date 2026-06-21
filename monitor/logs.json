@@ -1,5 +1,29 @@
 [
   {
+    "id": 55,
+    "ts": 1782023231047,
+    "method": "GET",
+    "path": "/ai-chat/claude-opus-4.8",
+    "status": 500,
+    "ms": 760,
+    "ip": "172.68.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "python-requests/2.33.1"
+  },
+  {
+    "id": 54,
+    "ts": 1782023228229,
+    "method": "GET",
+    "path": "/ai-chat/claude-opus-4.8",
+    "status": 500,
+    "ms": 1237,
+    "ip": "172.68.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "python-requests/2.33.1"
+  },
+  {
     "id": 53,
     "ts": 1782023208565,
     "method": "GET",
