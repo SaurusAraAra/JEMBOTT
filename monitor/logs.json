@@ -1,5 +1,41 @@
 [
   {
+    "id": 19,
+    "ts": 1782022773988,
+    "method": "GET",
+    "path": "/ai-chat/gemini-3.1-pro",
+    "status": 200,
+    "ms": 2073,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "python-requests/2.33.1"
+  },
+  {
+    "id": 18,
+    "ts": 1782022769844,
+    "method": "GET",
+    "path": "/ai-chat/gemini-3.1-pro",
+    "status": 503,
+    "ms": 0,
+    "ip": "172.71.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "python-requests/2.33.1"
+  },
+  {
+    "id": 17,
+    "ts": 1782022765660,
+    "method": "GET",
+    "path": "/edit/transform/tohitam",
+    "status": 503,
+    "ms": 1,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 16,
     "ts": 1782022760196,
     "method": "GET",
