@@ -1,5 +1,17 @@
 [
   {
+    "id": 3,
+    "ts": 1782037754262,
+    "method": "GET",
+    "path": "/ai-chat/claude-opus-4.8",
+    "status": 200,
+    "ms": 5778,
+    "ip": "157.20.207.201",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
+  },
+  {
     "id": 2,
     "ts": 1782037743331,
     "method": "GET",
@@ -5982,18 +5994,6 @@
     "path": "/canvas/iqc",
     "status": 200,
     "ms": 406,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/0.24.0"
-  },
-  {
-    "id": 234,
-    "ts": 1782028137559,
-    "method": "GET",
-    "path": "/canvas/iqc",
-    "status": 200,
-    "ms": 608,
     "ip": "172.71.xxx",
     "apikey": null,
     "is_premium": 0,
