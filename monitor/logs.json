@@ -1,5 +1,17 @@
 [
   {
+    "id": 4,
+    "ts": 1782036537735,
+    "method": "GET",
+    "path": "/ai-chat/claude-opus-4.8",
+    "status": 200,
+    "ms": 5664,
+    "ip": "162.159.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "WhatsApp/2.23.20.0"
+  },
+  {
     "id": 3,
     "ts": 1782036531174,
     "method": "POST",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)"
-  },
-  {
-    "id": 132,
-    "ts": 1782025050894,
-    "method": "GET",
-    "path": "/tools/ssweb",
-    "status": 200,
-    "ms": 2150,
-    "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
   }
 ]
