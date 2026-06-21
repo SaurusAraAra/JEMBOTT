@@ -1,5 +1,17 @@
 [
   {
+    "id": 26,
+    "ts": 1782047835325,
+    "method": "GET",
+    "path": "/ai-chat/gpt-5.5",
+    "status": 200,
+    "ms": 2222,
+    "ip": "5.183.91.119",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+  },
+  {
     "id": 25,
     "ts": 1782047789149,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-  },
-  {
-    "id": 625,
-    "ts": 1782035942512,
-    "method": "GET",
-    "path": "/ai-chat/ai-coder",
-    "status": 200,
-    "ms": 42069,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
   }
 ]
