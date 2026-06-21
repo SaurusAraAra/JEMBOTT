@@ -1,5 +1,17 @@
 [
   {
+    "id": 12,
+    "ts": 1782047295601,
+    "method": "GET",
+    "path": "/ai-chat/blackbox-ai",
+    "status": 200,
+    "ms": 126,
+    "ip": "103.255.156.50",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 11,
     "ts": 1782047280358,
     "method": "POST",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 611,
-    "ts": 1782035590959,
-    "method": "GET",
-    "path": "/canvas/thomas-meme",
-    "status": 200,
-    "ms": 1632,
-    "ip": "172.69.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
   }
 ]
