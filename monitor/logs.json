@@ -1,5 +1,41 @@
 [
   {
+    "id": 23,
+    "ts": 1782047756765,
+    "method": "GET",
+    "path": "/search/tiktok",
+    "status": 200,
+    "ms": 1180,
+    "ip": "37.114.42.83",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.18.0"
+  },
+  {
+    "id": 22,
+    "ts": 1782047748184,
+    "method": "GET",
+    "path": "/ai-chat/gpt-5.5",
+    "status": 500,
+    "ms": 1,
+    "ip": "5.183.90.187",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+  },
+  {
+    "id": 21,
+    "ts": 1782047748147,
+    "method": "GET",
+    "path": "/ai-chat/gpt-5.5",
+    "status": 500,
+    "ms": 2,
+    "ip": "195.64.115.109",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+  },
+  {
     "id": 20,
     "ts": 1782047729853,
     "method": "GET",
@@ -5962,41 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
-  },
-  {
-    "id": 622,
-    "ts": 1782035724709,
-    "method": "GET",
-    "path": "/check/cek-nameserver",
-    "status": 200,
-    "ms": 1169,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 621,
-    "ts": 1782035685842,
-    "method": "GET",
-    "path": "/check/cekwa",
-    "status": 200,
-    "ms": 160,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 620,
-    "ts": 1782035683560,
-    "method": "GET",
-    "path": "/check/cekwa",
-    "status": 200,
-    "ms": 185,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
   }
 ]
