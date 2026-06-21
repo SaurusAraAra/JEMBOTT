@@ -1,5 +1,53 @@
 [
   {
+    "id": 38,
+    "ts": 1782022852246,
+    "method": "GET",
+    "path": "/ai-chat/gemini-3.1-pro",
+    "status": 503,
+    "ms": 0,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "python-requests/2.33.1"
+  },
+  {
+    "id": 37,
+    "ts": 1782022849064,
+    "method": "GET",
+    "path": "/ai-chat/ai-coder",
+    "status": 503,
+    "ms": 0,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 36,
+    "ts": 1782022848609,
+    "method": "GET",
+    "path": "/ai-chat/gemini-3.1-pro",
+    "status": 503,
+    "ms": 1,
+    "ip": "172.71.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "python-requests/2.33.1"
+  },
+  {
+    "id": 35,
+    "ts": 1782022846482,
+    "method": "GET",
+    "path": "/ai-chat/gemini-3.1-pro",
+    "status": 503,
+    "ms": 1,
+    "ip": "172.71.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "python-requests/2.33.1"
+  },
+  {
     "id": 34,
     "ts": 1782022839138,
     "method": "GET",
