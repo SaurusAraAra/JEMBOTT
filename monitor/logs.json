@@ -1,5 +1,17 @@
 [
   {
+    "id": 271,
+    "ts": 1782054182888,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox",
+    "status": 200,
+    "ms": 48,
+    "ip": "114.10.64.201",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
     "id": 270,
     "ts": 1782054172291,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 71,
-    "ts": 1782041843752,
-    "method": "GET",
-    "path": "/berita/detik",
-    "status": 200,
-    "ms": 405,
-    "ip": "2600:1900:0:3800::c00",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node"
   }
 ]
