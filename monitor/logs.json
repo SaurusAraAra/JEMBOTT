@@ -1,5 +1,41 @@
 [
   {
+    "id": 498,
+    "ts": 1782030332428,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 70,
+    "ip": "104.22.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.17.0"
+  },
+  {
+    "id": 497,
+    "ts": 1782030332044,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 69,
+    "ip": "104.22.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.17.0"
+  },
+  {
+    "id": 496,
+    "ts": 1782030331491,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 482,
+    "ip": "104.22.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.17.0"
+  },
+  {
     "id": 495,
     "ts": 1782030286264,
     "method": "GET",
@@ -5959,42 +5995,6 @@
     "status": 500,
     "ms": 20230,
     "ip": "104.23.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 2,
-    "ts": 1782022292286,
-    "method": "GET",
-    "path": "/edit/nanobanana",
-    "status": 500,
-    "ms": 20130,
-    "ip": "104.22.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/1.18.0"
-  },
-  {
-    "id": 1,
-    "ts": 1782022281218,
-    "method": "GET",
-    "path": "/search/apkmody",
-    "status": 200,
-    "ms": 1136,
-    "ip": "172.68.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 16,
-    "ts": 1782022225626,
-    "method": "GET",
-    "path": "/tools/airmore-tts",
-    "status": 200,
-    "ms": 5577,
-    "ip": "172.68.xxx",
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
