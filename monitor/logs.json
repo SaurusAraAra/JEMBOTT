@@ -1,5 +1,29 @@
 [
   {
+    "id": 118,
+    "ts": 1782024695704,
+    "method": "GET",
+    "path": "/ai-chat/gpt-5.5",
+    "status": 200,
+    "ms": 2279,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 117,
+    "ts": 1782024685428,
+    "method": "GET",
+    "path": "/ai-chat/ai-coder",
+    "status": 200,
+    "ms": 39422,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 116,
     "ts": 1782024684361,
     "method": "GET",
