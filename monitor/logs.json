@@ -1,5 +1,17 @@
 [
   {
+    "id": 123,
+    "ts": 1782024804392,
+    "method": "GET",
+    "path": "/search/happymod",
+    "status": 500,
+    "ms": 1082,
+    "ip": "172.68.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 122,
     "ts": 1782024767480,
     "method": "GET",
