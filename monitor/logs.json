@@ -1,5 +1,29 @@
 [
   {
+    "id": 291,
+    "ts": 1782028779613,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox",
+    "status": 200,
+    "ms": 33,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
+    "id": 290,
+    "ts": 1782028779167,
+    "method": "GET",
+    "path": "/tempmail/tempmail-create",
+    "status": 200,
+    "ms": 28,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
     "id": 289,
     "ts": 1782028774566,
     "method": "GET",
