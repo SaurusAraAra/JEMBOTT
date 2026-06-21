@@ -1,5 +1,53 @@
 [
   {
+    "id": 458,
+    "ts": 1782029970104,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 167,
+    "ip": "104.23.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.17.0"
+  },
+  {
+    "id": 457,
+    "ts": 1782029969588,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 157,
+    "ip": "104.23.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.17.0"
+  },
+  {
+    "id": 456,
+    "ts": 1782029969125,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 413,
+    "ip": "104.23.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.17.0"
+  },
+  {
+    "id": 455,
+    "ts": 1782029968330,
+    "method": "POST",
+    "path": "/uploader/catbox",
+    "status": 200,
+    "ms": 229,
+    "ip": "172.71.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.17.0"
+  },
+  {
     "id": 454,
     "ts": 1782029961115,
     "method": "GET",
