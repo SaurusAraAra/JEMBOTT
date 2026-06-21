@@ -1,5 +1,17 @@
 [
   {
+    "id": 299,
+    "ts": 1782029034246,
+    "method": "GET",
+    "path": "/canvas/red&blue-pill-meme",
+    "status": 200,
+    "ms": 328,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
+  },
+  {
     "id": 298,
     "ts": 1782029004906,
     "method": "GET",
