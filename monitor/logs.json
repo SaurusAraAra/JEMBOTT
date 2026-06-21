@@ -1,5 +1,29 @@
 [
   {
+    "id": 458,
+    "ts": 1782055748211,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox",
+    "status": 200,
+    "ms": 56,
+    "ip": "114.10.64.201",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
+    "id": 457,
+    "ts": 1782055737697,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox",
+    "status": 200,
+    "ms": 59,
+    "ip": "114.10.64.201",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
     "id": 456,
     "ts": 1782055727155,
     "method": "GET",
@@ -5974,29 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node-fetch"
-  },
-  {
-    "id": 20,
-    "ts": 1782046907820,
-    "method": "GET",
-    "path": "/ai-chat/claude-opus-4.8",
-    "status": 200,
-    "ms": 4719,
-    "ip": "114.125.149.25",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "curl/8.20.0"
-  },
-  {
-    "id": 19,
-    "ts": 1782046852059,
-    "method": "GET",
-    "path": "/tempmail/tempmail-create",
-    "status": 200,
-    "ms": 33,
-    "ip": "38.46.214.252",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
   }
 ]
