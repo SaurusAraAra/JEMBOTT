@@ -1,5 +1,29 @@
 [
   {
+    "id": 16,
+    "ts": 1782046328237,
+    "method": "GET",
+    "path": "/tempmail/tempmail-create",
+    "status": 200,
+    "ms": 186,
+    "ip": "38.46.214.252",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 15,
+    "ts": 1782046325825,
+    "method": "GET",
+    "path": "/ai-generate/text-2-image",
+    "status": 200,
+    "ms": 20338,
+    "ip": "37.41.72.48",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 14,
     "ts": 1782046303595,
     "method": "GET",
@@ -5971,30 +5995,6 @@
     "status": 500,
     "ms": 177,
     "ip": "104.23.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 555,
-    "ts": 1782032713890,
-    "method": "GET",
-    "path": "/ai-chat/asynt-ai",
-    "status": 200,
-    "ms": 6427,
-    "ip": "172.69.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 554,
-    "ts": 1782032562577,
-    "method": "GET",
-    "path": "/encrypt/AES-Encrypt",
-    "status": 200,
-    "ms": 12,
-    "ip": "172.69.xxx",
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
