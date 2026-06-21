@@ -1,5 +1,41 @@
 [
   {
+    "id": 230,
+    "ts": 1782028054710,
+    "method": "GET",
+    "path": "/canvas/fakeff",
+    "status": 200,
+    "ms": 135,
+    "ip": "172.71.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node-fetch"
+  },
+  {
+    "id": 229,
+    "ts": 1782028051083,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 260,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 228,
+    "ts": 1782028046314,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 275,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 227,
     "ts": 1782028041927,
     "method": "GET",
