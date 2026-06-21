@@ -1,5 +1,17 @@
 [
   {
+    "id": 9,
+    "ts": 1782037002347,
+    "method": "GET",
+    "path": "/canvas/fakeff",
+    "status": 200,
+    "ms": 344,
+    "ip": "37.114.34.51",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node-fetch"
+  },
+  {
     "id": 8,
     "ts": 1782036833375,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node-fetch"
-  },
-  {
-    "id": 137,
-    "ts": 1782025358430,
-    "method": "GET",
-    "path": "/ai-chat/claude-opus-4.8",
-    "status": 200,
-    "ms": 2341,
-    "ip": "172.69.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node"
   }
 ]
