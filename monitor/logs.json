@@ -1,5 +1,17 @@
 [
   {
+    "id": 8,
+    "ts": 1782036833375,
+    "method": "GET",
+    "path": "/ai-chat/gemini-3.1-flash-lite-preview",
+    "status": 200,
+    "ms": 918,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "WhatsApp/2.23.20.0"
+  },
+  {
     "id": 7,
     "ts": 1782036647060,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node"
-  },
-  {
-    "id": 136,
-    "ts": 1782025244626,
-    "method": "GET",
-    "path": "/tools/spam-ngl",
-    "status": 500,
-    "ms": 19784,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
   }
 ]
