@@ -1,5 +1,29 @@
 [
   {
+    "id": 338,
+    "ts": 1782054729301,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox",
+    "status": 200,
+    "ms": 43,
+    "ip": "114.10.64.201",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
+    "id": 337,
+    "ts": 1782054718125,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox",
+    "status": 200,
+    "ms": 55,
+    "ip": "114.10.64.201",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
     "id": 336,
     "ts": 1782054707401,
     "method": "GET",
@@ -5974,29 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node"
-  },
-  {
-    "id": 1,
-    "ts": 1782044766739,
-    "method": "GET",
-    "path": "/ai-chat/gemini-3.1-pro",
-    "status": 200,
-    "ms": 2724,
-    "ip": "2600:1900:0:3e03::1300",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node"
-  },
-  {
-    "id": 1,
-    "ts": 1782044633830,
-    "method": "GET",
-    "path": "/tempmail/tempmail-create",
-    "status": 200,
-    "ms": 76,
-    "ip": "38.46.214.252",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
   }
 ]
