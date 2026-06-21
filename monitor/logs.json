@@ -1,5 +1,17 @@
 [
   {
+    "id": 190,
+    "ts": 1782053215218,
+    "method": "GET",
+    "path": "/ai-chat/x.ai-grok-4.1",
+    "status": 200,
+    "ms": 2087,
+    "ip": "112.215.149.62",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 12; V2111 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/149.0.7827.91 Mobile Safari/537.36"
+  },
+  {
     "id": 189,
     "ts": 1782053181172,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "WhatsApp/2.23.20.0"
-  },
-  {
-    "id": 2,
-    "ts": 1782039978135,
-    "method": "GET",
-    "path": "/canvas/e-ktp",
-    "status": 200,
-    "ms": 599,
-    "ip": "103.160.182.183",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/1.18.0"
   }
 ]
