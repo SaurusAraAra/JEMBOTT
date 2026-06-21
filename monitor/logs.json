@@ -1,5 +1,17 @@
 [
   {
+    "id": 12,
+    "ts": 1782038175538,
+    "method": "GET",
+    "path": "/ai-chat/gemini",
+    "status": 200,
+    "ms": 3321,
+    "ip": "158.101.175.140",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "python-requests/2.34.2"
+  },
+  {
     "id": 11,
     "ts": 1782038167444,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-  },
-  {
-    "id": 264,
-    "ts": 1782028429747,
-    "method": "GET",
-    "path": "/ai-chat/gemini",
-    "status": 200,
-    "ms": 3607,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/1.18.0"
   }
 ]
