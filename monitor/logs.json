@@ -1,5 +1,29 @@
 [
   {
+    "id": 3,
+    "ts": 1782038128237,
+    "method": "GET",
+    "path": "/ai-chat/gpt-5.4",
+    "status": 200,
+    "ms": 2811,
+    "ip": "114.10.79.138",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+  },
+  {
+    "id": 2,
+    "ts": 1782038109239,
+    "method": "GET",
+    "path": "/ai-chat/asynt-ai",
+    "status": 200,
+    "ms": 8375,
+    "ip": "114.10.79.138",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+  },
+  {
     "id": 1,
     "ts": 1782038098397,
     "method": "GET",
@@ -5970,30 +5994,6 @@
     "path": "/ai-chat/gpt-4o-mini",
     "status": 200,
     "ms": 72,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-  },
-  {
-    "id": 255,
-    "ts": 1782028337251,
-    "method": "GET",
-    "path": "/ai-chat/gpt-4o-mini",
-    "status": 200,
-    "ms": 72,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-  },
-  {
-    "id": 254,
-    "ts": 1782028336829,
-    "method": "GET",
-    "path": "/ai-chat/gpt-4o-mini",
-    "status": 200,
-    "ms": 74,
     "ip": "162.158.xxx",
     "apikey": null,
     "is_premium": 0,
