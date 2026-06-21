@@ -1,5 +1,17 @@
 [
   {
+    "id": 9,
+    "ts": 1782037946161,
+    "method": "GET",
+    "path": "/canvas/e-ktp",
+    "status": 200,
+    "ms": 185,
+    "ip": "38.46.214.252",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 8,
     "ts": 1782037933591,
     "method": "GET",
@@ -5982,18 +5994,6 @@
     "path": "/ai-chat/gpt-4o-mini",
     "status": 200,
     "ms": 72,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-  },
-  {
-    "id": 247,
-    "ts": 1782028333169,
-    "method": "GET",
-    "path": "/ai-chat/gpt-4o-mini",
-    "status": 200,
-    "ms": 73,
     "ip": "162.158.xxx",
     "apikey": null,
     "is_premium": 0,
