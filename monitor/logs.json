@@ -1,5 +1,29 @@
 [
   {
+    "id": 9,
+    "ts": 1782039599902,
+    "method": "GET",
+    "path": "/sitemap.xml",
+    "status": 200,
+    "ms": 3,
+    "ip": "216.73.217.37",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-SearchBot/1.0; +searchbot@anthropic.com)"
+  },
+  {
+    "id": 8,
+    "ts": 1782039599735,
+    "method": "GET",
+    "path": "/robots.txt",
+    "status": 200,
+    "ms": 4,
+    "ip": "216.73.217.37",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-SearchBot/1.0; +searchbot@anthropic.com)"
+  },
+  {
     "id": 7,
     "ts": 1782039522915,
     "method": "GET",
@@ -5974,29 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "axios/1.17.0"
-  },
-  {
-    "id": 311,
-    "ts": 1782029345136,
-    "method": "GET",
-    "path": "/movie/lk21/genre",
-    "status": 200,
-    "ms": 1464,
-    "ip": "104.23.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 310,
-    "ts": 1782029320069,
-    "method": "GET",
-    "path": "/tempmail/tempmail-create",
-    "status": 200,
-    "ms": 63,
-    "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": ""
   }
 ]
