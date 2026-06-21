@@ -1,5 +1,17 @@
 [
   {
+    "id": 543,
+    "ts": 1782031609449,
+    "method": "GET",
+    "path": "/video.mp4",
+    "status": 200,
+    "ms": 2,
+    "ip": "104.22.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Dalvik/2.1.0 (Linux; U; Android 16; CPH2631 Build/BP2A.250605.015)"
+  },
+  {
     "id": 542,
     "ts": 1782031597043,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
-  },
-  {
-    "id": 43,
-    "ts": 1782022920551,
-    "method": "GET",
-    "path": "/ai-chat/gemini-3.1-pro",
-    "status": 503,
-    "ms": 1,
-    "ip": "162.159.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
   }
 ]
