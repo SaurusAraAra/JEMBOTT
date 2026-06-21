@@ -1,5 +1,17 @@
 [
   {
+    "id": 582,
+    "ts": 1782034999013,
+    "method": "GET",
+    "path": "/canvas/spotifycard",
+    "status": 200,
+    "ms": 1466,
+    "ip": "172.69.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
+  },
+  {
     "id": 581,
     "ts": 1782034974227,
     "method": "GET",
@@ -5983,18 +5995,6 @@
     "status": 200,
     "ms": 100,
     "ip": "104.23.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 82,
-    "ts": 1782023808566,
-    "method": "GET",
-    "path": "/games/roblox/gag2stock",
-    "status": 200,
-    "ms": 1016,
-    "ip": "172.70.xxx",
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
