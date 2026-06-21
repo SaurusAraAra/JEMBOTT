@@ -1,5 +1,29 @@
 [
   {
+    "id": 2,
+    "ts": 1782040304067,
+    "method": "GET",
+    "path": "/tools/ip-info",
+    "status": 200,
+    "ms": 67,
+    "ip": "114.10.8.191",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 1,
+    "ts": 1782040294796,
+    "method": "GET",
+    "path": "/tools/cuaca",
+    "status": 200,
+    "ms": 752,
+    "ip": "114.10.8.191",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 12,
     "ts": 1782040240988,
     "method": "GET",
@@ -5966,30 +5990,6 @@
   {
     "id": 332,
     "ts": 1782029354922,
-    "method": "GET",
-    "path": "/ai-chat/gpt-4o-mini",
-    "status": 200,
-    "ms": 72,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/1.17.0"
-  },
-  {
-    "id": 331,
-    "ts": 1782029354743,
-    "method": "GET",
-    "path": "/ai-chat/gpt-4o-mini",
-    "status": 200,
-    "ms": 70,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/1.17.0"
-  },
-  {
-    "id": 330,
-    "ts": 1782029354408,
     "method": "GET",
     "path": "/ai-chat/gpt-4o-mini",
     "status": 200,
