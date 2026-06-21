@@ -1,5 +1,29 @@
 [
   {
+    "id": 52,
+    "ts": 1782037602482,
+    "method": "GET",
+    "path": "/seegore/home",
+    "status": 200,
+    "ms": 3062,
+    "ip": "157.20.207.201",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
+  },
+  {
+    "id": 51,
+    "ts": 1782037601319,
+    "method": "GET",
+    "path": "/ai-chat/gemini-3.1-flash-lite-preview",
+    "status": 200,
+    "ms": 56,
+    "ip": "2404:c0:c201:c23b:11:f593:1fa5:9530",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
+  },
+  {
     "id": 50,
     "ts": 1782037587298,
     "method": "GET",
@@ -5971,30 +5995,6 @@
     "status": 200,
     "ms": 417,
     "ip": "172.68.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/0.24.0"
-  },
-  {
-    "id": 180,
-    "ts": 1782027195203,
-    "method": "GET",
-    "path": "/stalker/steam",
-    "status": 200,
-    "ms": 1451,
-    "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 179,
-    "ts": 1782027188468,
-    "method": "GET",
-    "path": "/canvas/iqc",
-    "status": 200,
-    "ms": 970,
-    "ip": "162.158.xxx",
     "apikey": null,
     "is_premium": 0,
     "user_agent": "axios/0.24.0"
