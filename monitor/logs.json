@@ -1,5 +1,17 @@
 [
   {
+    "id": 133,
+    "ts": 1782025110763,
+    "method": "GET",
+    "path": "/robots.txt",
+    "status": 200,
+    "ms": 1,
+    "ip": "104.23.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)"
+  },
+  {
     "id": 132,
     "ts": 1782025050894,
     "method": "GET",
