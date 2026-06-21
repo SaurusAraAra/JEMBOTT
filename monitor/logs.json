@@ -1,5 +1,17 @@
 [
   {
+    "id": 290,
+    "ts": 1782054354117,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox",
+    "status": 200,
+    "ms": 58,
+    "ip": "114.10.64.201",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
     "id": 289,
     "ts": 1782054343424,
     "method": "GET",
@@ -5982,18 +5994,6 @@
     "path": "/tempmail/tempmail-create",
     "status": 200,
     "ms": 30,
-    "ip": "2600:1900:0:3800::c00",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node"
-  },
-  {
-    "id": 90,
-    "ts": 1782042261078,
-    "method": "GET",
-    "path": "/tempmail/tempmail-create",
-    "status": 200,
-    "ms": 43,
     "ip": "2600:1900:0:3800::c00",
     "apikey": null,
     "is_premium": 0,
