@@ -1,5 +1,17 @@
 [
   {
+    "id": 13,
+    "ts": 1782038184292,
+    "method": "GET",
+    "path": "/canvas/brat",
+    "status": 200,
+    "ms": 817,
+    "ip": "154.47.146.246",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+  },
+  {
     "id": 12,
     "ts": 1782038175538,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 265,
-    "ts": 1782028440446,
-    "method": "GET",
-    "path": "/ai-chat/gpt-4o-mini",
-    "status": 200,
-    "ms": 1000,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
   }
 ]
