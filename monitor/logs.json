@@ -1,5 +1,29 @@
 [
   {
+    "id": 211,
+    "ts": 1782027732097,
+    "method": "GET",
+    "path": "/canvas/fakeff",
+    "status": 200,
+    "ms": 186,
+    "ip": "172.71.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node-fetch"
+  },
+  {
+    "id": 210,
+    "ts": 1782027726789,
+    "method": "GET",
+    "path": "/canvas/fakeff",
+    "status": 200,
+    "ms": 143,
+    "ip": "172.71.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node-fetch"
+  },
+  {
     "id": 209,
     "ts": 1782027717632,
     "method": "GET",
