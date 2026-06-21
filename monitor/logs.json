@@ -1,5 +1,17 @@
 [
   {
+    "id": 588,
+    "ts": 1782035140283,
+    "method": "GET",
+    "path": "/ai-chat/claude-sonnet-4.6",
+    "status": 200,
+    "ms": 5360,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+  },
+  {
     "id": 587,
     "ts": 1782035101034,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 88,
-    "ts": 1782024045766,
-    "method": "GET",
-    "path": "/games/tebaklogo",
-    "status": 200,
-    "ms": 134,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Go-http-client/2.0"
   }
 ]
