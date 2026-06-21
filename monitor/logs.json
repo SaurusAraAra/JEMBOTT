@@ -1,5 +1,29 @@
 [
   {
+    "id": 285,
+    "ts": 1782028613407,
+    "method": "GET",
+    "path": "/canvas/maju-lo-meme",
+    "status": 200,
+    "ms": 247,
+    "ip": "172.71.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
+  },
+  {
+    "id": 284,
+    "ts": 1782028609899,
+    "method": "GET",
+    "path": "/ai-chat/gemini",
+    "status": 200,
+    "ms": 4207,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.18.0"
+  },
+  {
     "id": 283,
     "ts": 1782028599636,
     "method": "GET",
