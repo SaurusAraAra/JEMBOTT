@@ -1,5 +1,41 @@
 [
   {
+    "id": 242,
+    "ts": 1782053944765,
+    "method": "GET",
+    "path": "/ai-chat/claude-opus-4.5",
+    "status": 500,
+    "ms": 2,
+    "ip": "182.10.129.250",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 241,
+    "ts": 1782053944139,
+    "method": "GET",
+    "path": "/ai-chat/copilot-ai",
+    "status": 200,
+    "ms": 8059,
+    "ip": "158.140.171.117",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 240,
+    "ts": 1782053937705,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox",
+    "status": 200,
+    "ms": 47,
+    "ip": "114.10.64.201",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
     "id": 239,
     "ts": 1782053927080,
     "method": "GET",
@@ -5962,41 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": ""
-  },
-  {
-    "id": 42,
-    "ts": 1782041452915,
-    "method": "GET",
-    "path": "/berita/detik",
-    "status": 200,
-    "ms": 407,
-    "ip": "2600:1900:0:3800::c00",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node"
-  },
-  {
-    "id": 41,
-    "ts": 1782041452620,
-    "method": "GET",
-    "path": "/tempmail/tempmail-inbox",
-    "status": 200,
-    "ms": 45,
-    "ip": "114.10.66.217",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": ""
-  },
-  {
-    "id": 40,
-    "ts": 1782041452017,
-    "method": "GET",
-    "path": "/berita/detik",
-    "status": 200,
-    "ms": 996,
-    "ip": "2600:1900:0:3800::c00",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node"
   }
 ]
