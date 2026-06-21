@@ -1,5 +1,17 @@
 [
   {
+    "id": 9,
+    "ts": 1782045552978,
+    "method": "GET",
+    "path": "/movie/lk21/search",
+    "status": 200,
+    "ms": 1699,
+    "ip": "2402:8780:1059:1566:2cca:a1ed:3ac2:faa6",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 8,
     "ts": 1782045503001,
     "method": "GET",
@@ -5982,18 +5994,6 @@
     "path": "/canvas/quotes-v4",
     "status": 200,
     "ms": 254,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/0.24.0"
-  },
-  {
-    "id": 489,
-    "ts": 1782030229785,
-    "method": "GET",
-    "path": "/canvas/quotes-v5",
-    "status": 200,
-    "ms": 413,
     "ip": "172.71.xxx",
     "apikey": null,
     "is_premium": 0,
