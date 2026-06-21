@@ -1,5 +1,17 @@
 [
   {
+    "id": 5,
+    "ts": 1782036585724,
+    "method": "GET",
+    "path": "/ai-chat/gemini-3.1-flash-lite-preview",
+    "status": 200,
+    "ms": 691,
+    "ip": "172.71.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 4,
     "ts": 1782036537735,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node-fetch"
-  },
-  {
-    "id": 133,
-    "ts": 1782025110763,
-    "method": "GET",
-    "path": "/robots.txt",
-    "status": 200,
-    "ms": 1,
-    "ip": "104.23.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)"
   }
 ]
