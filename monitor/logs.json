@@ -1,5 +1,29 @@
 [
   {
+    "id": 78,
+    "ts": 1782041979127,
+    "method": "GET",
+    "path": "/berita/detik",
+    "status": 200,
+    "ms": 398,
+    "ip": "2600:1900:0:3800::c00",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node"
+  },
+  {
+    "id": 77,
+    "ts": 1782041978392,
+    "method": "GET",
+    "path": "/berita/detik",
+    "status": 200,
+    "ms": 1019,
+    "ip": "2600:1900:0:3800::c00",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node"
+  },
+  {
     "id": 76,
     "ts": 1782041971697,
     "method": "GET",
@@ -5974,29 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "axios/1.18.0"
-  },
-  {
-    "id": 407,
-    "ts": 1782029460536,
-    "method": "GET",
-    "path": "/canvas/fake-dana",
-    "status": 200,
-    "ms": 623,
-    "ip": "104.22.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node-fetch"
-  },
-  {
-    "id": 406,
-    "ts": 1782029417363,
-    "method": "GET",
-    "path": "/provider/cekkuota",
-    "status": 200,
-    "ms": 4066,
-    "ip": "104.23.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
   }
 ]
