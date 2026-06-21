@@ -1,5 +1,29 @@
 [
   {
+    "id": 514,
+    "ts": 1782030559252,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 7300,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.17.0"
+  },
+  {
+    "id": 513,
+    "ts": 1782030556513,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 3869,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.17.0"
+  },
+  {
     "id": 512,
     "ts": 1782030552328,
     "method": "GET",
@@ -5968,30 +5992,6 @@
     "ts": 1782022751543,
     "method": "GET",
     "path": "/search/openapk",
-    "status": 503,
-    "ms": 1,
-    "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 14,
-    "ts": 1782022750446,
-    "method": "GET",
-    "path": "/search/openapk",
-    "status": 503,
-    "ms": 1,
-    "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 13,
-    "ts": 1782022744693,
-    "method": "GET",
-    "path": "/search/apkmody",
     "status": 503,
     "ms": 1,
     "ip": "172.70.xxx",
