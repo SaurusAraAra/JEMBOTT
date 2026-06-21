@@ -1,5 +1,17 @@
 [
   {
+    "id": 37,
+    "ts": 1782049019452,
+    "method": "GET",
+    "path": "/ai-chat/gemini-3.1-pro",
+    "status": 200,
+    "ms": 2339,
+    "ip": "182.9.36.31",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; RMX5303 Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/149.0.7827.93 Mobile Safari/537.36"
+  },
+  {
     "id": 36,
     "ts": 1782049010702,
     "method": "GET",
@@ -5982,18 +5994,6 @@
     "path": "/canvas/iqc",
     "status": 200,
     "ms": 2880,
-    "ip": "154.47.146.246",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/0.24.0"
-  },
-  {
-    "id": 38,
-    "ts": 1782037335940,
-    "method": "GET",
-    "path": "/canvas/balogo",
-    "status": 200,
-    "ms": 692,
     "ip": "154.47.146.246",
     "apikey": null,
     "is_premium": 0,
