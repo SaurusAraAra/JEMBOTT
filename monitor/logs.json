@@ -1,5 +1,17 @@
 [
   {
+    "id": 279,
+    "ts": 1782028526145,
+    "method": "GET",
+    "path": "/ai-chat/gemini",
+    "status": 200,
+    "ms": 5815,
+    "ip": "108.162.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.18.0"
+  },
+  {
     "id": 278,
     "ts": 1782028525108,
     "method": "GET",
