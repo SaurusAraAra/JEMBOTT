@@ -1,5 +1,17 @@
 [
   {
+    "id": 141,
+    "ts": 1782051418419,
+    "method": "GET",
+    "path": "/ai-chat/x.ai-grok-4.1",
+    "status": 200,
+    "ms": 2404,
+    "ip": "112.215.149.62",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 12; V2111 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/149.0.7827.91 Mobile Safari/537.36"
+  },
+  {
     "id": 140,
     "ts": 1782051203293,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
-  },
-  {
-    "id": 18,
-    "ts": 1782038228457,
-    "method": "GET",
-    "path": "/ai-chat/gemini-3.1-pro",
-    "status": 200,
-    "ms": 2713,
-    "ip": "114.10.79.138",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
   }
 ]
