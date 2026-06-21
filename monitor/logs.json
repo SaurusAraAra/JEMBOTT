@@ -1,5 +1,17 @@
 [
   {
+    "id": 86,
+    "ts": 1782023839753,
+    "method": "GET",
+    "path": "/ai-chat/gpt-5-nano",
+    "status": 200,
+    "ms": 1547,
+    "ip": "172.69.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node"
+  },
+  {
     "id": 85,
     "ts": 1782023819140,
     "method": "GET",
