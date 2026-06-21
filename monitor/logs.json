@@ -1,5 +1,29 @@
 [
   {
+    "id": 178,
+    "ts": 1782052871505,
+    "method": "GET",
+    "path": "/ai-chat/x.ai-grok-4.1",
+    "status": 200,
+    "ms": 5230,
+    "ip": "112.215.149.62",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 12; V2111 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/149.0.7827.91 Mobile Safari/537.36"
+  },
+  {
+    "id": 177,
+    "ts": 1782052866979,
+    "method": "GET",
+    "path": "/ai-chat/claude-opus-4.8",
+    "status": 200,
+    "ms": 3361,
+    "ip": "157.15.66.67",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.18.0"
+  },
+  {
     "id": 176,
     "ts": 1782052702206,
     "method": "GET",
@@ -5974,29 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 5,
-    "ts": 1782039414335,
-    "method": "GET",
-    "path": "/tools/animefinder",
-    "status": 500,
-    "ms": 1302,
-    "ip": "103.120.173.196",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 4,
-    "ts": 1782039409212,
-    "method": "GET",
-    "path": "/canvas/brat",
-    "status": 200,
-    "ms": 33,
-    "ip": "154.47.146.246",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
   }
 ]
