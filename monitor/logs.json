@@ -1,5 +1,29 @@
 [
   {
+    "id": 47,
+    "ts": 1782049298804,
+    "method": "GET",
+    "path": "/movie/lk21/detail",
+    "status": 200,
+    "ms": 986,
+    "ip": "114.122.103.145",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+  },
+  {
+    "id": 46,
+    "ts": 1782049267651,
+    "method": "GET",
+    "path": "/movie/lk21/best",
+    "status": 200,
+    "ms": 1351,
+    "ip": "114.122.103.145",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+  },
+  {
     "id": 45,
     "ts": 1782049259465,
     "method": "GET",
@@ -5970,30 +5994,6 @@
     "path": "/stalker/tiktokstalk",
     "status": 400,
     "ms": 2,
-    "ip": "157.20.207.201",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
-  },
-  {
-    "id": 48,
-    "ts": 1782037561891,
-    "method": "GET",
-    "path": "/stalker/steam",
-    "status": 200,
-    "ms": 282,
-    "ip": "157.20.207.201",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
-  },
-  {
-    "id": 47,
-    "ts": 1782037555991,
-    "method": "GET",
-    "path": "/stalker/mobile-legend",
-    "status": 200,
-    "ms": 211,
     "ip": "157.20.207.201",
     "apikey": null,
     "is_premium": 0,
