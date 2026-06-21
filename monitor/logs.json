@@ -1,5 +1,17 @@
 [
   {
+    "id": 1,
+    "ts": 1782021678466,
+    "method": "GET",
+    "path": "/canvas/brat",
+    "status": 200,
+    "ms": 3585,
+    "ip": "172.71.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+  },
+  {
     "id": 4,
     "ts": 1782021550781,
     "method": "GET",
