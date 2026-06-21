@@ -1,5 +1,29 @@
 [
   {
+    "id": 482,
+    "ts": 1782055954819,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox",
+    "status": 200,
+    "ms": 82,
+    "ip": "114.10.64.201",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
+    "id": 481,
+    "ts": 1782055950666,
+    "method": "GET",
+    "path": "/ai-chat/deepseek-v4-flash",
+    "status": 200,
+    "ms": 267,
+    "ip": "160.19.19.242",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 480,
     "ts": 1782055943962,
     "method": "GET",
@@ -5974,29 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 16; Infinix X6873 Build/BP2A.250605.031.A3) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/148.0.7778.215 Mobile Safari/537.36"
-  },
-  {
-    "id": 12,
-    "ts": 1782047295601,
-    "method": "GET",
-    "path": "/ai-chat/blackbox-ai",
-    "status": 200,
-    "ms": 126,
-    "ip": "103.255.156.50",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 11,
-    "ts": 1782047280358,
-    "method": "POST",
-    "path": "/uploader/shz",
-    "status": 400,
-    "ms": 35,
-    "ip": "202.65.239.49",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
   }
 ]
