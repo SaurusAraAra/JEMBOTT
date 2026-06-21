@@ -1,5 +1,17 @@
 [
   {
+    "id": 16,
+    "ts": 1782037099064,
+    "method": "GET",
+    "path": "/ai-chat/gemini-3.1-flash-lite-preview",
+    "status": 200,
+    "ms": 707,
+    "ip": "2404:c0:c201:c23b:11:f593:1fa5:9530",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
+  },
+  {
     "id": 15,
     "ts": 1782037091599,
     "method": "GET",
@@ -5983,18 +5995,6 @@
     "status": 200,
     "ms": 180,
     "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node-fetch"
-  },
-  {
-    "id": 144,
-    "ts": 1782025544937,
-    "method": "GET",
-    "path": "/canvas/fakeff",
-    "status": 200,
-    "ms": 186,
-    "ip": "172.71.xxx",
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node-fetch"
