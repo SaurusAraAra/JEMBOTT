@@ -1,5 +1,17 @@
 [
   {
+    "id": 134,
+    "ts": 1782050712247,
+    "method": "GET",
+    "path": "/ai-chat/claude-opus-4.8",
+    "status": 200,
+    "ms": 11624,
+    "ip": "103.156.16.115",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node"
+  },
+  {
     "id": 133,
     "ts": 1782050628120,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "python-requests/2.34.2"
-  },
-  {
-    "id": 11,
-    "ts": 1782038167444,
-    "method": "GET",
-    "path": "/ai-chat/gpt-5.4",
-    "status": 200,
-    "ms": 3546,
-    "ip": "114.10.79.138",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
   }
 ]
