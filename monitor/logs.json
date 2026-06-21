@@ -1,5 +1,17 @@
 [
   {
+    "id": 6,
+    "ts": 1782059423312,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox",
+    "status": 200,
+    "ms": 62,
+    "ip": "204.51.34.52",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
     "id": 5,
     "ts": 1782059412546,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 159,
-    "ts": 1782052321401,
-    "method": "GET",
-    "path": "/ai-chat/arena-ai",
-    "status": 403,
-    "ms": 2,
-    "ip": "2001:448a:10f1:86c8:f8ca:dc1b:4f0c:e334",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36"
   }
 ]
