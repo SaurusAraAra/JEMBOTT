@@ -1,5 +1,17 @@
 [
   {
+    "id": 23,
+    "ts": 1782037165450,
+    "method": "GET",
+    "path": "/games/asah-otak",
+    "status": 200,
+    "ms": 164,
+    "ip": "103.71.161.18",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 22,
     "ts": 1782037153947,
     "method": "GET",
@@ -5982,18 +5994,6 @@
     "path": "/provider/cekkuota",
     "status": 200,
     "ms": 3751,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 151,
-    "ts": 1782025875289,
-    "method": "GET",
-    "path": "/encrypt/AES-Decrypt",
-    "status": 200,
-    "ms": 2,
     "ip": "162.158.xxx",
     "apikey": null,
     "is_premium": 0,
