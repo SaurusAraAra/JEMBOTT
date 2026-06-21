@@ -1,5 +1,29 @@
 [
   {
+    "id": 16,
+    "ts": 1782038203855,
+    "method": "GET",
+    "path": "/canvas/brat",
+    "status": 200,
+    "ms": 26,
+    "ip": "154.47.146.246",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+  },
+  {
+    "id": 15,
+    "ts": 1782038203551,
+    "method": "GET",
+    "path": "/ai-generate/text-2-image",
+    "status": 200,
+    "ms": 20935,
+    "ip": "157.20.207.201",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
+  },
+  {
     "id": 14,
     "ts": 1782038196682,
     "method": "GET",
@@ -5974,29 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "axios/0.24.0"
-  },
-  {
-    "id": 268,
-    "ts": 1782028466072,
-    "method": "GET",
-    "path": "/ai-chat/gemini",
-    "status": 200,
-    "ms": 4954,
-    "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/1.18.0"
-  },
-  {
-    "id": 267,
-    "ts": 1782028461217,
-    "method": "GET",
-    "path": "/ai-chat/gpt-4o-mini",
-    "status": 200,
-    "ms": 855,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
   }
 ]
