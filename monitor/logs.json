@@ -1,5 +1,17 @@
 [
   {
+    "id": 558,
+    "ts": 1782033122772,
+    "method": "GET",
+    "path": "/ai-generate/quillbot-txt2img",
+    "status": 500,
+    "ms": 772,
+    "ip": "172.71.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 557,
     "ts": 1782033107539,
     "method": "GET",
@@ -5985,18 +5997,6 @@
     "ip": "172.70.xxx",
     "apikey": null,
     "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 58,
-    "ts": 1782023260536,
-    "method": "GET",
-    "path": "/ai-chat/arena-ai",
-    "status": 403,
-    "ms": 32,
-    "ip": "172.70.xxx",
-    "apikey": "curl -X GET \"https://api.synoxcloud.xyz/ai-chat/claude-opus-4.8?pesan=Gimana%20cara%20fix%20bug%20dalam%20code%3F\"",
-    "is_premium": 1,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
   }
 ]
