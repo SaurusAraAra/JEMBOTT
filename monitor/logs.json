@@ -1,5 +1,17 @@
 [
   {
+    "id": 130,
+    "ts": 1782050537711,
+    "method": "GET",
+    "path": "/ai-chat/x.ai-grok-4.1",
+    "status": 200,
+    "ms": 3323,
+    "ip": "34.162.230.222",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +claude-user@anthropic.com)"
+  },
+  {
     "id": 129,
     "ts": 1782050494505,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-  },
-  {
-    "id": 7,
-    "ts": 1782038142346,
-    "method": "GET",
-    "path": "/ai-chat/gemini",
-    "status": 200,
-    "ms": 5653,
-    "ip": "158.101.175.140",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "python-requests/2.34.2"
   }
 ]
