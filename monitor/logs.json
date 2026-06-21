@@ -1,5 +1,17 @@
 [
   {
+    "id": 489,
+    "ts": 1782030229785,
+    "method": "GET",
+    "path": "/canvas/quotes-v5",
+    "status": 200,
+    "ms": 413,
+    "ip": "172.71.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/0.24.0"
+  },
+  {
     "id": 488,
     "ts": 1782030190403,
     "method": "GET",
@@ -5983,18 +5995,6 @@
     "status": 500,
     "ms": 458,
     "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/1.18.0"
-  },
-  {
-    "id": 9,
-    "ts": 1782021936462,
-    "method": "GET",
-    "path": "/edit/nanobanana",
-    "status": 500,
-    "ms": 365,
-    "ip": "104.22.xxx",
     "apikey": null,
     "is_premium": 0,
     "user_agent": "axios/1.18.0"
