@@ -1,5 +1,17 @@
 [
   {
+    "id": 15,
+    "ts": 1782048660712,
+    "method": "GET",
+    "path": "/canvas/e-ktp",
+    "status": 200,
+    "ms": 2560,
+    "ip": "2404:c0:b203:23bf:ad84:2d76:3e64:5c98",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
     "id": 14,
     "ts": 1782048657037,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 16,
-    "ts": 1782037099064,
-    "method": "GET",
-    "path": "/ai-chat/gemini-3.1-flash-lite-preview",
-    "status": 200,
-    "ms": 707,
-    "ip": "2404:c0:c201:c23b:11:f593:1fa5:9530",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
   }
 ]
