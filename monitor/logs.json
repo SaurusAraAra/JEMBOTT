@@ -1,5 +1,41 @@
 [
   {
+    "id": 218,
+    "ts": 1782027804910,
+    "method": "GET",
+    "path": "/canvas/fakecall",
+    "status": 200,
+    "ms": 84,
+    "ip": "172.68.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 217,
+    "ts": 1782027800885,
+    "method": "GET",
+    "path": "/canvas/fakecall",
+    "status": 200,
+    "ms": 210,
+    "ip": "172.68.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 216,
+    "ts": 1782027797280,
+    "method": "GET",
+    "path": "/canvas/fakeff",
+    "status": 200,
+    "ms": 173,
+    "ip": "172.71.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node-fetch"
+  },
+  {
     "id": 215,
     "ts": 1782027788659,
     "method": "GET",
