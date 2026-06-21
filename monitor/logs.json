@@ -1,5 +1,17 @@
 [
   {
+    "id": 556,
+    "ts": 1782032908938,
+    "method": "GET",
+    "path": "/ai-chat/asynt-ai",
+    "status": 500,
+    "ms": 177,
+    "ip": "104.23.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 555,
     "ts": 1782032713890,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 56,
-    "ts": 1782023235068,
-    "method": "GET",
-    "path": "/ai-chat/claude-opus-4.8",
-    "status": 500,
-    "ms": 346,
-    "ip": "162.159.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "python-requests/2.33.1"
   }
 ]
