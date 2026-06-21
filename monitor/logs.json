@@ -1,5 +1,17 @@
 [
   {
+    "id": 626,
+    "ts": 1782057415034,
+    "method": "GET",
+    "path": "/robots.txt",
+    "status": 304,
+    "ms": 1,
+    "ip": "216.73.216.104",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)"
+  },
+  {
     "id": 625,
     "ts": 1782057345157,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 12; V2111 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/149.0.7827.91 Mobile Safari/537.36"
-  },
-  {
-    "id": 126,
-    "ts": 1782050397335,
-    "method": "GET",
-    "path": "/tempmail/tempmail-inbox",
-    "status": 200,
-    "ms": 104,
-    "ip": "114.10.64.201",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": ""
   }
 ]
