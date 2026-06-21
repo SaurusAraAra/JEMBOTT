@@ -1,5 +1,17 @@
 [
   {
+    "id": 51,
+    "ts": 1782041593828,
+    "method": "GET",
+    "path": "/ai-chat/blackbox-ai",
+    "status": 200,
+    "ms": 139,
+    "ip": "103.182.78.174",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 50,
     "ts": 1782041540148,
     "method": "GET",
@@ -5978,18 +5990,6 @@
   {
     "id": 381,
     "ts": 1782029372094,
-    "method": "GET",
-    "path": "/ai-chat/gpt-4o-mini",
-    "status": 200,
-    "ms": 72,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/1.17.0"
-  },
-  {
-    "id": 380,
-    "ts": 1782029371563,
     "method": "GET",
     "path": "/ai-chat/gpt-4o-mini",
     "status": 200,
