@@ -1,5 +1,17 @@
 [
   {
+    "id": 20,
+    "ts": 1782046907820,
+    "method": "GET",
+    "path": "/ai-chat/claude-opus-4.8",
+    "status": 200,
+    "ms": 4719,
+    "ip": "114.125.149.25",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "curl/8.20.0"
+  },
+  {
     "id": 19,
     "ts": 1782046852059,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-  },
-  {
-    "id": 587,
-    "ts": 1782035101034,
-    "method": "GET",
-    "path": "/canvas/brat",
-    "status": 200,
-    "ms": 39,
-    "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
   }
 ]
