@@ -1,5 +1,65 @@
 [
   {
+    "id": 33,
+    "ts": 1782022833152,
+    "method": "GET",
+    "path": "/berita/antara",
+    "status": 503,
+    "ms": 11,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 32,
+    "ts": 1782022829607,
+    "method": "GET",
+    "path": "/ai-chat/gemma-3-27b-it",
+    "status": 503,
+    "ms": 1,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 31,
+    "ts": 1782022828368,
+    "method": "GET",
+    "path": "/ai-chat/gemini-3.1-pro",
+    "status": 503,
+    "ms": 0,
+    "ip": "172.68.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "python-requests/2.33.1"
+  },
+  {
+    "id": 30,
+    "ts": 1782022825583,
+    "method": "GET",
+    "path": "/ai-chat/deepseek-v3.2-thinking",
+    "status": 503,
+    "ms": 1,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 29,
+    "ts": 1782022824849,
+    "method": "GET",
+    "path": "/ai-chat/gemini-3.1-pro",
+    "status": 503,
+    "ms": 1,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "python-requests/2.33.1"
+  },
+  {
     "id": 28,
     "ts": 1782022822696,
     "method": "GET",
