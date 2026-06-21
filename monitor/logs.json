@@ -1,5 +1,17 @@
 [
   {
+    "id": 19,
+    "ts": 1782046365196,
+    "method": "GET",
+    "path": "/ai-chat/claude-opus-4.5",
+    "status": 200,
+    "ms": 4795,
+    "ip": "48.193.44.128",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.18.0"
+  },
+  {
     "id": 18,
     "ts": 1782046343936,
     "method": "GET",
@@ -5982,18 +5994,6 @@
     "path": "/ai-generate/quillbot-txt2img",
     "status": 500,
     "ms": 184,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 558,
-    "ts": 1782033122772,
-    "method": "GET",
-    "path": "/ai-generate/quillbot-txt2img",
-    "status": 500,
-    "ms": 772,
     "ip": "172.71.xxx",
     "apikey": null,
     "is_premium": 0,
