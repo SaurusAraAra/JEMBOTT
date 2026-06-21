@@ -1,5 +1,17 @@
 [
   {
+    "id": 25,
+    "ts": 1782046472751,
+    "method": "GET",
+    "path": "/edit/nanobanana",
+    "status": 200,
+    "ms": 42650,
+    "ip": "37.41.72.48",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 24,
     "ts": 1782046456383,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": ""
-  },
-  {
-    "id": 564,
-    "ts": 1782033224943,
-    "method": "GET",
-    "path": "/ai-generate/text-2-image",
-    "status": 200,
-    "ms": 66867,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"
   }
 ]
