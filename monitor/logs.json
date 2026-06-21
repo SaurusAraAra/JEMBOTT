@@ -1,5 +1,17 @@
 [
   {
+    "id": 26,
+    "ts": 1782046962690,
+    "method": "GET",
+    "path": "/ai-chat/blackbox-ai",
+    "status": 200,
+    "ms": 119,
+    "ip": "103.255.156.50",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 25,
     "ts": 1782046953924,
     "method": "GET",
@@ -5983,18 +5995,6 @@
     "status": 200,
     "ms": 190,
     "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
-  },
-  {
-    "id": 593,
-    "ts": 1782035202463,
-    "method": "GET",
-    "path": "/canvas/brat",
-    "status": 200,
-    "ms": 44,
-    "ip": "172.68.xxx",
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
