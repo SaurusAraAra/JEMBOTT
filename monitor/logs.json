@@ -1,5 +1,17 @@
 [
   {
+    "id": 186,
+    "ts": 1782053146029,
+    "method": "GET",
+    "path": "/ai-chat/gpt-5.5",
+    "status": 500,
+    "ms": 1,
+    "ip": "114.5.212.207",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+  },
+  {
     "id": 185,
     "ts": 1782053132437,
     "method": "GET",
@@ -5982,18 +5994,6 @@
     "path": "/seegore/watch",
     "status": 200,
     "ms": 1441,
-    "ip": "37.114.34.74",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-  },
-  {
-    "id": 13,
-    "ts": 1782039694512,
-    "method": "GET",
-    "path": "/seegore/home",
-    "status": 200,
-    "ms": 2942,
     "ip": "37.114.34.74",
     "apikey": null,
     "is_premium": 0,
