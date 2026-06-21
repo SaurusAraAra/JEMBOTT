@@ -1,5 +1,29 @@
 [
   {
+    "id": 95,
+    "ts": 1782042300592,
+    "method": "GET",
+    "path": "/berita/detik",
+    "status": 200,
+    "ms": 397,
+    "ip": "2600:1900:0:3800::c00",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node"
+  },
+  {
+    "id": 94,
+    "ts": 1782042299231,
+    "method": "GET",
+    "path": "/berita/detik",
+    "status": 200,
+    "ms": 947,
+    "ip": "2600:1900:0:3800::c00",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node"
+  },
+  {
     "id": 93,
     "ts": 1782042279218,
     "method": "GET",
@@ -5974,29 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node-fetch"
-  },
-  {
-    "id": 424,
-    "ts": 1782029493463,
-    "method": "GET",
-    "path": "/ai-chat/gpt-4o-mini",
-    "status": 200,
-    "ms": 72,
-    "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/1.17.0"
-  },
-  {
-    "id": 423,
-    "ts": 1782029492934,
-    "method": "GET",
-    "path": "/ai-chat/gpt-4o-mini",
-    "status": 200,
-    "ms": 71,
-    "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/1.17.0"
   }
 ]
