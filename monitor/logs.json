@@ -1,5 +1,29 @@
 [
   {
+    "id": 520,
+    "ts": 1782056245290,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox",
+    "status": 200,
+    "ms": 50,
+    "ip": "114.10.64.201",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
+    "id": 519,
+    "ts": 1782056239590,
+    "method": "GET",
+    "path": "/ai-chat/deepseek-v3.2-thinking",
+    "status": 200,
+    "ms": 3203,
+    "ip": "160.19.19.242",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 518,
     "ts": 1782056234010,
     "method": "GET",
@@ -5974,29 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 20,
-    "ts": 1782048791700,
-    "method": "GET",
-    "path": "/ai-chat/gemini-3.1-pro",
-    "status": 200,
-    "ms": 3258,
-    "ip": "182.9.36.31",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 15; RMX5303 Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/149.0.7827.93 Mobile Safari/537.36"
-  },
-  {
-    "id": 19,
-    "ts": 1782048785833,
-    "method": "GET",
-    "path": "/games/roblox/gag2-stock",
-    "status": 200,
-    "ms": 252,
-    "ip": "103.120.173.196",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "WhatsApp/2.23.20.0"
   }
 ]
