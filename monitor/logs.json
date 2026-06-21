@@ -1,5 +1,41 @@
 [
   {
+    "id": 84,
+    "ts": 1782023813817,
+    "method": "GET",
+    "path": "/games/tebaklogo",
+    "status": 200,
+    "ms": 147,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 83,
+    "ts": 1782023813449,
+    "method": "GET",
+    "path": "/tools/url-shortener",
+    "status": 200,
+    "ms": 100,
+    "ip": "104.23.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
+    "id": 82,
+    "ts": 1782023808566,
+    "method": "GET",
+    "path": "/games/roblox/gag2stock",
+    "status": 200,
+    "ms": 1016,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  {
     "id": 81,
     "ts": 1782023804453,
     "method": "GET",
