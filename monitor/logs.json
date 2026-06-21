@@ -1,5 +1,41 @@
 [
   {
+    "id": 478,
+    "ts": 1782030097203,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 141,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.17.0"
+  },
+  {
+    "id": 477,
+    "ts": 1782030096563,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 139,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.17.0"
+  },
+  {
+    "id": 476,
+    "ts": 1782030095956,
+    "method": "GET",
+    "path": "/ai-chat/gpt-4o-mini",
+    "status": 200,
+    "ms": 418,
+    "ip": "162.158.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.17.0"
+  },
+  {
     "id": 475,
     "ts": 1782030063465,
     "method": "GET",
@@ -5959,30 +5995,6 @@
     "status": 200,
     "ms": 153,
     "ip": "104.23.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node-fetch"
-  },
-  {
-    "id": 2,
-    "ts": 1782021363559,
-    "method": "GET",
-    "path": "/canvas/brat",
-    "status": 200,
-    "ms": 1711,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
-  },
-  {
-    "id": 1,
-    "ts": 1782021341143,
-    "method": "GET",
-    "path": "/canvas/fakeff",
-    "status": 200,
-    "ms": 202,
-    "ip": "172.71.xxx",
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node-fetch"
