@@ -1,5 +1,17 @@
 [
   {
+    "id": 233,
+    "ts": 1782053905554,
+    "method": "GET",
+    "path": "/tempmail/tempmail-inbox",
+    "status": 200,
+    "ms": 59,
+    "ip": "114.10.64.201",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": ""
+  },
+  {
     "id": 232,
     "ts": 1782053894817,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": ""
-  },
-  {
-    "id": 33,
-    "ts": 1782041339596,
-    "method": "GET",
-    "path": "/ai-chat/rusora-ai",
-    "status": 500,
-    "ms": 1569,
-    "ip": "94.74.110.43",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0"
   }
 ]
