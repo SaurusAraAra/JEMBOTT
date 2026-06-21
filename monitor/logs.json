@@ -1,5 +1,41 @@
 [
   {
+    "id": 37,
+    "ts": 1782037331185,
+    "method": "GET",
+    "path": "/canvas/fakeff",
+    "status": 200,
+    "ms": 274,
+    "ip": "37.114.34.51",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node-fetch"
+  },
+  {
+    "id": 36,
+    "ts": 1782037323584,
+    "method": "GET",
+    "path": "/canvas/wanted",
+    "status": 200,
+    "ms": 2199,
+    "ip": "154.47.146.246",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/0.24.0"
+  },
+  {
+    "id": 35,
+    "ts": 1782037304500,
+    "method": "GET",
+    "path": "/canvas/fakeff",
+    "status": 200,
+    "ms": 269,
+    "ip": "37.114.34.51",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node-fetch"
+  },
+  {
     "id": 34,
     "ts": 1782037302889,
     "method": "POST",
@@ -5962,41 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "axios/0.24.0"
-  },
-  {
-    "id": 165,
-    "ts": 1782026886752,
-    "method": "GET",
-    "path": "/canvas/iqc",
-    "status": 200,
-    "ms": 603,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/0.24.0"
-  },
-  {
-    "id": 164,
-    "ts": 1782026827918,
-    "method": "GET",
-    "path": "/canvas/iqc",
-    "status": 200,
-    "ms": 3089,
-    "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "axios/0.24.0"
-  },
-  {
-    "id": 163,
-    "ts": 1782026663565,
-    "method": "GET",
-    "path": "/ai-chat/gpt-5.5",
-    "status": 200,
-    "ms": 2164,
-    "ip": "172.69.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36"
   }
 ]
