@@ -1,5 +1,29 @@
 [
   {
+    "id": 585,
+    "ts": 1782035051818,
+    "method": "GET",
+    "path": "/canvas/brat",
+    "status": 200,
+    "ms": 35,
+    "ip": "172.71.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+  },
+  {
+    "id": 584,
+    "ts": 1782035050498,
+    "method": "POST",
+    "path": "/edit/hd-image",
+    "status": 500,
+    "ms": 408,
+    "ip": "172.70.xxx",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+  },
+  {
     "id": 583,
     "ts": 1782035012649,
     "method": "GET",
@@ -5974,29 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node"
-  },
-  {
-    "id": 85,
-    "ts": 1782023819140,
-    "method": "GET",
-    "path": "/ai-chat/deepseek-r1",
-    "status": 200,
-    "ms": 1743,
-    "ip": "172.71.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 84,
-    "ts": 1782023813817,
-    "method": "GET",
-    "path": "/games/tebaklogo",
-    "status": 200,
-    "ms": 147,
-    "ip": "172.70.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
   }
 ]
