@@ -1,5 +1,17 @@
 [
   {
+    "id": 218,
+    "ts": 1782053734789,
+    "method": "GET",
+    "path": "/ai-chat/gemini",
+    "status": 200,
+    "ms": 6205,
+    "ip": "157.15.66.67",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "axios/1.18.0"
+  },
+  {
     "id": 217,
     "ts": 1782053721590,
     "method": "GET",
@@ -5986,17 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
-  },
-  {
-    "id": 18,
-    "ts": 1782041155928,
-    "method": "GET",
-    "path": "/ai-chat/rusora-ai",
-    "status": 500,
-    "ms": 1260,
-    "ip": "103.129.68.65",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
   }
 ]
