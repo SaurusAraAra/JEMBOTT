@@ -1,5 +1,41 @@
 [
   {
+    "id": 9,
+    "ts": 1782038146181,
+    "method": "GET",
+    "path": "/seegore/watch",
+    "status": 200,
+    "ms": 1013,
+    "ip": "37.114.34.74",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  },
+  {
+    "id": 8,
+    "ts": 1782038144865,
+    "method": "GET",
+    "path": "/seegore/watch",
+    "status": 200,
+    "ms": 1179,
+    "ip": "37.114.34.74",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  },
+  {
+    "id": 7,
+    "ts": 1782038142346,
+    "method": "GET",
+    "path": "/ai-chat/gemini",
+    "status": 200,
+    "ms": 5653,
+    "ip": "158.101.175.140",
+    "apikey": null,
+    "is_premium": 0,
+    "user_agent": "python-requests/2.34.2"
+  },
+  {
     "id": 6,
     "ts": 1782038136697,
     "method": "GET",
@@ -5962,41 +5998,5 @@
     "apikey": null,
     "is_premium": 0,
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 261,
-    "ts": 1782028382258,
-    "method": "GET",
-    "path": "/ai-chat/gpt-4o-mini",
-    "status": 200,
-    "ms": 2281,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-  },
-  {
-    "id": 260,
-    "ts": 1782028369450,
-    "method": "GET",
-    "path": "/ephoto/typographytext",
-    "status": 200,
-    "ms": 3341,
-    "ip": "104.23.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-  },
-  {
-    "id": 259,
-    "ts": 1782028339389,
-    "method": "GET",
-    "path": "/ai-chat/gpt-4o-mini",
-    "status": 200,
-    "ms": 74,
-    "ip": "162.158.xxx",
-    "apikey": null,
-    "is_premium": 0,
-    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
   }
 ]
